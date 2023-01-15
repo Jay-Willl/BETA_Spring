@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.NoticeMapper">
+    <insert id="insertNotice">
+        insert into notice (notice_id, course_id, user_id, notice_content, notice_time, notice_email)
+        values (null, #{course_id}, #{user_id}, #{notice_content}, #{notice_time}, #{notice_email});
+    </insert>
+
+    <update id="updateNotice">
+        update notice set notice_content = #{notice_content}
+        where course_id = #{course_id};
+    </update>
+
+
+    <select id="selectNoticesByUserId" resultType="edu.sustech.ooad.entity.Notice">
+        select * from notice where user_id = #{user_id};
+    </select>
+
+    <select id="selectNoticesByCourseId" resultType="edu.sustech.ooad.entity.Notice">
+        select * from notice where course_id = #{course_id};
+    </select>
+</mapper>

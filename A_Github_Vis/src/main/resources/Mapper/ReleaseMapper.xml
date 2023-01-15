@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="github_vis.Mapper.ReleaseMapper">
+    <resultMap id="releaseMapAuto" type="github_vis.Entity.Release" autoMapping="true"/>
+
+    <insert id="insertRelease">
+        insert into releases (repo_id, release_tag_name, release_name, created_at, publish_at, release_body)
+        values (#{repo_id}, #{release_tag_name}, #{release_name}, #{created_at}, #{published_at}, #{release_body})
+    </insert>
+
+    <select id="selectReleasesByRepo_id" resultType="github_vis.Entity.Release">
+        select repo_id, release_tag_name, release_name, created_at, publish_at, release_body
+        from releases where repo_id = #{repo_id};
+    </select>
+
+
+</mapper>

@@ -1,0 +1,680 @@
+[
+  {
+    "count": 3291,
+    "name": "Duplicate",
+    "description": "An existing issue was already created",
+    "color": "f7c6c7"
+  },
+  {
+    "count": 3141,
+    "name": "Fixed",
+    "description": "A PR has been merged for this issue",
+    "color": "80e580"
+  },
+  {
+    "count": 2455,
+    "name": "Question",
+    "description": "An issue which isn't directly actionable in code",
+    "color": "d4c5f9"
+  },
+  {
+    "count": 1916,
+    "name": "Working as Intended",
+    "description": "The behavior described is the intended behavior; this is not a bug",
+    "color": "fbca04"
+  },
+  {
+    "count": 933,
+    "name": "Bug",
+    "description": "A bug in TypeScript",
+    "color": "e11d21"
+  },
+  {
+    "count": 772,
+    "name": "Needs More Info",
+    "description": "The issue still hasn't been fully clarified",
+    "color": "556b75"
+  },
+  {
+    "count": 577,
+    "name": "Domain: lib.d.ts",
+    "description": "The issue relates to the different libraries shipped with TypeScript",
+    "color": "c7def8"
+  },
+  {
+    "count": 565,
+    "name": "Design Limitation",
+    "description": "Constraints of the existing architecture prevent this from being fixed",
+    "color": "fbca04"
+  },
+  {
+    "count": 546,
+    "name": "External",
+    "description": "Relates to another program, environment, or user action which we cannot control.",
+    "color": "eb6420"
+  },
+  {
+    "count": 525,
+    "name": "VS Code Tracked",
+    "description": "There is a VS Code equivalent to this issue",
+    "color": "1d76db"
+  },
+  {
+    "count": 518,
+    "name": "Awaiting More Feedback",
+    "description": "This means we'd like to hear from more people who would be helped by this feature",
+    "color": "556677"
+  },
+  {
+    "count": 451,
+    "name": "By Design",
+    "description": "Deprecated - use \"Working as Intended\" or \"Design Limitation\" instead",
+    "color": "fbca04"
+  },
+  {
+    "count": 426,
+    "name": "Help Wanted",
+    "description": "You can do this",
+    "color": "3178c6"
+  },
+  {
+    "count": 387,
+    "name": "Fix Available",
+    "description": "A PR has been opened for this issue",
+    "color": "bfe5bf"
+  },
+  {
+    "count": 383,
+    "name": "In Discussion",
+    "description": "Not yet reached consensus",
+    "color": "556b75"
+  },
+  {
+    "count": 374,
+    "name": "Out of Scope",
+    "description": "This idea sits outside of the TypeScript language design constraints",
+    "color": "556677"
+  },
+  {
+    "count": 302,
+    "name": "API",
+    "description": "Relates to the public API for TypeScript",
+    "color": "bfe5bf"
+  },
+  {
+    "count": 293,
+    "name": "Declined",
+    "description": "The issue was declined as something which matches the TypeScript vision",
+    "color": "556677"
+  },
+  {
+    "count": 251,
+    "name": "Domain: Transforms",
+    "description": "Relates to the public transform API",
+    "color": "006b75"
+  },
+  {
+    "count": 245,
+    "name": "Docs",
+    "description": "The issue relates to how you learn TypeScript",
+    "color": "5319e7"
+  },
+  {
+    "count": 244,
+    "name": "Experience Enhancement",
+    "description": "Noncontroversial enhancements",
+    "color": "556677"
+  },
+  {
+    "count": 242,
+    "name": "Needs Proposal",
+    "description": "This issue needs a plan that clarifies the finer details of how it could be implemented.",
+    "color": "556b75"
+  },
+  {
+    "count": 205,
+    "name": "Infrastructure",
+    "description": "Issue relates to TypeScript team infrastructure",
+    "color": "fbca04"
+  },
+  {
+    "count": 203,
+    "name": "Website Logo",
+    "description": "Deprecated",
+    "color": "fef2c0"
+  },
+  {
+    "count": 197,
+    "name": "Too Complex",
+    "description": "An issue which adding support for may be too complex for the value it adds",
+    "color": "556677"
+  },
+  {
+    "count": 191,
+    "name": "Needs Investigation",
+    "description": "This issue needs a team member to investigate its status.",
+    "color": "DDDDDD"
+  },
+  {
+    "count": 189,
+    "name": "Source: Telemetry",
+    "description": "The issue relates to the telemetry in editors",
+    "color": "7953cc"
+  },
+  {
+    "count": 171,
+    "name": "Domain: Quick Fixes",
+    "description": "Editor-provided fixes, often called code actions.",
+    "color": "d4c5f9"
+  },
+  {
+    "count": 171,
+    "name": "Design Notes",
+    "description": "Notes from our design meetings",
+    "color": "bfdadc"
+  },
+  {
+    "count": 153,
+    "name": "Domain: Error Messages",
+    "description": "The issue relates to error messaging",
+    "color": "fef2c0"
+  },
+  {
+    "count": 151,
+    "name": "Spec",
+    "description": "Issues related to the TypeScript language specification",
+    "color": "207de5"
+  },
+  {
+    "count": 150,
+    "name": "Committed",
+    "description": "The team has roadmapped this issue",
+    "color": "009800"
+  },
+  {
+    "count": 147,
+    "name": "Domain: JavaScript",
+    "description": "The issue relates to JavaScript specifically",
+    "color": "f0db4f"
+  },
+  {
+    "count": 145,
+    "name": "Good First Issue",
+    "description": "Well scoped, documented and has the green light",
+    "color": "7944ba"
+  },
+  {
+    "count": 144,
+    "name": "Breaking Change",
+    "description": "Would introduce errors in existing code",
+    "color": "eb6420"
+  },
+  {
+    "count": 135,
+    "name": "Domain: JSDoc",
+    "description": "Relates to JSDoc parsing and type generation",
+    "color": "c5def5"
+  },
+  {
+    "count": 130,
+    "name": "Domain: Refactorings",
+    "description": "e.g. extract to constant or function, rename symbol",
+    "color": "5319e7"
+  },
+  {
+    "count": 125,
+    "name": "High Priority",
+    "description": "null",
+    "color": "e11d21"
+  },
+  {
+    "count": 121,
+    "name": "Unactionable",
+    "description": "There isn't something we can do with this issue",
+    "color": "CCCCCC"
+  },
+  {
+    "count": 118,
+    "name": "Visual Studio",
+    "description": "Integration with Visual Studio",
+    "color": "007ACC"
+  },
+  {
+    "count": 114,
+    "name": "Rescheduled",
+    "description": "This issue was previously scheduled to an earlier milestone",
+    "color": "5319e7"
+  },
+  {
+    "count": 113,
+    "name": "Won't Fix",
+    "description": "The severity and priority of this issue do not warrant the time or complexity needed to fix it",
+    "color": "fbca04"
+  },
+  {
+    "count": 105,
+    "name": "Domain: Formatter",
+    "description": "The issue relates to the built-in formatter",
+    "color": "8255cc"
+  },
+  {
+    "count": 101,
+    "name": "Domain: Completion Lists",
+    "description": "The issue relates to showing completion lists in an editor",
+    "color": "006b75"
+  },
+  {
+    "count": 94,
+    "name": "Crash",
+    "description": "For flagging bugs which are compiler or service crashes or unclean exits, rather than bad output",
+    "color": "d93f0b"
+  },
+  {
+    "count": 89,
+    "name": "Domain: Declaration Emit",
+    "description": "The issue relates to the emission of d.ts files",
+    "color": "fef2c0"
+  },
+  {
+    "count": 88,
+    "name": "ES6",
+    "description": "Relates to the ES6 Spec",
+    "color": "c7def8"
+  },
+  {
+    "count": 87,
+    "name": "For Backlog Bug",
+    "description": "PRs that fix a backlog bug",
+    "color": "9ff4ed"
+  },
+  {
+    "count": 85,
+    "name": "Discussion",
+    "description": "Issues which may not have code impact",
+    "color": "5319e7"
+  },
+  {
+    "count": 75,
+    "name": "Suggestion",
+    "description": "An idea for TypeScript",
+    "color": "006b75"
+  },
+  {
+    "count": 71,
+    "name": "Domain: JSX/TSX",
+    "description": "Relates to the JSX parser and emitter",
+    "color": "207de5"
+  },
+  {
+    "count": 66,
+    "name": "Effort: Moderate",
+    "description": "Requires experience with the TypeScript codebase, but feasible. Harder than \"Effort: Casual\".",
+    "color": "207de5"
+  },
+  {
+    "count": 66,
+    "name": "@types",
+    "description": "Relates to working with .d.ts files (declaration/definition files) from DefinitelyTyped",
+    "color": "bfd4f2"
+  },
+  {
+    "count": 46,
+    "name": "Revisit",
+    "description": "An issue worth coming back to",
+    "color": "006b75"
+  },
+  {
+    "count": 43,
+    "name": "For Milestone Bug",
+    "description": "PRs that fix a bug with a specific milestone",
+    "color": "001f77"
+  },
+  {
+    "count": 41,
+    "name": "Domain: Quick Info",
+    "description": "e.g. hover text, tool-tips, and tooltips.",
+    "color": "5071bf"
+  },
+  {
+    "count": 39,
+    "name": "Domain: Performance",
+    "description": "Reports of unusually slow behavior",
+    "color": "97f4eb"
+  },
+  {
+    "count": 38,
+    "name": "Domain: Literal Types",
+    "description": "Unit types including string literal types, numeric literal types, Boolean literals, null, undefined",
+    "color": "FB3A4B"
+  },
+  {
+    "count": 38,
+    "name": "Website",
+    "description": "Deprecated - please forward issue to microsoft/TypeScript-Website",
+    "color": "2d81c6"
+  },
+  {
+    "count": 37,
+    "name": "Domain: TSServer",
+    "description": "Issues related to the TSServer",
+    "color": "1d76db"
+  },
+  {
+    "count": 36,
+    "name": "checkJs",
+    "description": "Relates to checking JavaScript using TypeScript",
+    "color": "3074a5"
+  },
+  {
+    "count": 33,
+    "name": "Author: Team",
+    "description": "",
+    "color": "3178C6"
+  },
+  {
+    "count": 31,
+    "name": "Domain: Symbol Navigation",
+    "description": "Relates to go-to-definition, find-all-references, highlighting/occurrences.",
+    "color": "333496"
+  },
+  {
+    "count": 30,
+    "name": "ES Next",
+    "description": "New featurers for ECMAScript (a.k.a. ESNext)",
+    "color": "bfd4f2"
+  },
+  {
+    "count": 29,
+    "name": "Domain: Decorators",
+    "description": "The issue relates to the decorator syntax",
+    "color": "fbca04"
+  },
+  {
+    "count": 27,
+    "name": "Canonical",
+    "description": "This issue contains a lengthy and complete description of a particular problem, solution, or design",
+    "color": "000000"
+  },
+  {
+    "count": 26,
+    "name": "Domain: Conditional Types",
+    "description": "The issue relates to conditional types",
+    "color": "f9a2f4"
+  },
+  {
+    "count": 25,
+    "name": "Update Docs on Next Release",
+    "description": "Indicates that this PR affects docs",
+    "color": "fbca04"
+  },
+  {
+    "count": 25,
+    "name": "VS Code Priority",
+    "description": "Critical issues that VS Code needs fixed in the current TypeScript milestone",
+    "color": "1d76db"
+  },
+  {
+    "count": 25,
+    "name": "Domain: Control Flow",
+    "description": "The issue relates to control flow analysis",
+    "color": "1d76db"
+  },
+  {
+    "count": 24,
+    "name": "Domain: Comment Emit",
+    "description": "The issue relates to the emission of comments when compiling",
+    "color": "148A14"
+  },
+  {
+    "count": 23,
+    "name": "Housekeeping",
+    "description": "Housekeeping PRs",
+    "color": "4DDEB7"
+  },
+  {
+    "count": 22,
+    "name": "i18n",
+    "description": "(Ping PDostalek) Translation/Localization/Internationalization of messages in the compiler.",
+    "color": "2f47ce"
+  },
+  {
+    "count": 22,
+    "name": "Experiment",
+    "description": "A fork with an experimental idea which might not make it into master",
+    "color": "acd617"
+  },
+  {
+    "count": 20,
+    "name": "Add a Flag",
+    "description": "Any problem can be solved by flags, except for the problem of having too many flags",
+    "color": "1d76db"
+  },
+  {
+    "count": 20,
+    "name": "Domain: ES Modules",
+    "description": "The issue relates to import/export style module behavior",
+    "color": "b60205"
+  },
+  {
+    "count": 20,
+    "name": "lib update",
+    "description": "PR modifies files in the `lib` folder",
+    "color": "561584"
+  },
+  {
+    "count": 19,
+    "name": "Domain: Organize Imports",
+    "description": "Issues with the organize imports feature",
+    "color": "c2e0c6"
+  },
+  {
+    "count": 19,
+    "name": "Domain: Outlining",
+    "description": "Relates to multi-line regions that editors can collapse",
+    "color": "5af4ce"
+  },
+  {
+    "count": 19,
+    "name": "invalid",
+    "description": "Bad-faith PRs, Hacktoberfest spam",
+    "color": "e2222b"
+  },
+  {
+    "count": 18,
+    "name": "PursuitFellowship",
+    "description": "Help wanted from Pursuit fellowship; others please avoid until Dec 19",
+    "color": "4cc95f"
+  },
+  {
+    "count": 17,
+    "name": "Domain: Signature Help",
+    "description": "Information in editor tooltips when invoking a function call",
+    "color": "b22361"
+  },
+  {
+    "count": 16,
+    "name": "Domain: Mapped Types",
+    "description": "The issue relates to mapped types",
+    "color": "5319c7"
+  },
+  {
+    "count": 15,
+    "name": "Domain: Type Inference",
+    "description": "Related to type inference performed during signature resolution or `infer` type resolution",
+    "color": "69e57e"
+  },
+  {
+    "count": 15,
+    "name": "For Uncommitted Bug",
+    "description": "PR for untriaged, rejected, closed or missing bug",
+    "color": "ededed"
+  },
+  {
+    "count": 14,
+    "name": "Domain: Contextual Types",
+    "description": "The issue relates to contextual types",
+    "color": "8958c9"
+  },
+  {
+    "count": 13,
+    "name": "Scenario: Monorepos & Cross-Project References",
+    "description": "Relates to composite projects (a.k.a references between \"medium sized projects\")",
+    "color": "f93fdb"
+  },
+  {
+    "count": 13,
+    "name": "Effort: Difficult",
+    "description": "Good luck.",
+    "color": "d10401"
+  },
+  {
+    "count": 12,
+    "name": "Meta-Issue",
+    "description": "An issue about the team, or the direction of TypeScript",
+    "color": "bfdadc"
+  },
+  {
+    "count": 12,
+    "name": "Waiting for TC39",
+    "description": "Unactionable until TC39 reaches some conclusion",
+    "color": "556b75"
+  },
+  {
+    "count": 12,
+    "name": "Domain: Related Error Spans",
+    "description": "Specifying regions for error messages/diagnostics on multiple locations.",
+    "color": "2bdb6c"
+  },
+  {
+    "count": 9,
+    "name": "Experimentation Needed",
+    "description": "Someone needs to try this out to see what happens",
+    "color": "ebff56"
+  },
+  {
+    "count": 9,
+    "name": "Domain: JS Emit",
+    "description": "The issue relates to the emission of JavaScript",
+    "color": "fce66c"
+  },
+  {
+    "count": 9,
+    "name": "Domain: Auto-import",
+    "description": "",
+    "color": "61a8f4"
+  },
+  {
+    "count": 8,
+    "name": "Domain: Indexed Access Types",
+    "description": "The issue relates to accessing subtypes via index access",
+    "color": "8d8ff4"
+  },
+  {
+    "count": 8,
+    "name": "Planning",
+    "description": "Iteration plans and roadmapping",
+    "color": "4770b7"
+  },
+  {
+    "count": 8,
+    "name": "Domain: --incremental",
+    "description": "The issue relates to incremental compilation",
+    "color": "42d182"
+  },
+  {
+    "count": 7,
+    "name": "feature-request",
+    "description": "A request for a new feature",
+    "color": "ededed"
+  },
+  {
+    "count": 6,
+    "name": "Has Repro",
+    "description": "This issue has compiler-backed repros: https://aka.ms/ts-repros",
+    "color": "ededed"
+  },
+  {
+    "count": 6,
+    "name": "Community Tooling",
+    "description": "This might be better handled by tooling from the community instead of built into TypeScript",
+    "color": "bfe5cf"
+  },
+  {
+    "count": 6,
+    "name": "Domain: Type Display",
+    "description": "Bugs relating to showing types in Quick Info/Tooltips, Signature Help, or Completion Info",
+    "color": "0a1670"
+  },
+  {
+    "count": 5,
+    "name": "Effort: Casual",
+    "description": "Good issue if you're already used to contributing to the codebase. Harder than \"good first issue\".",
+    "color": "B6DBB8"
+  },
+  {
+    "count": 5,
+    "name": "Domain: This-Typing",
+    "description": "The issue relates to providing types to this",
+    "color": "bfdadc"
+  },
+  {
+    "count": 4,
+    "name": "ES7",
+    "description": "Relates to the ES7 Spec",
+    "color": "bfd4f2"
+  },
+  {
+    "count": 3,
+    "name": "ES2017",
+    "description": "Relates to the ES2017 Spec",
+    "color": "c7def8"
+  },
+  {
+    "count": 3,
+    "name": "Domain: tsc -b",
+    "description": "Issues related to build mode",
+    "color": "adb8f4"
+  },
+  {
+    "count": 2,
+    "name": "ES2018",
+    "description": "Relates to the ES2018 Spec",
+    "color": "c7def8"
+  },
+  {
+    "count": 2,
+    "name": "Domain: Variance Relationships",
+    "description": "The issue relates to variance relationships between types",
+    "color": "ef9686"
+  },
+  {
+    "count": 1,
+    "name": "Domain: Smart Indentation",
+    "description": "Automatic indenting after a newline (not quite formatter/formatting)",
+    "color": "ff75a0"
+  },
+  {
+    "count": 1,
+    "name": "Investigating",
+    "description": "Is in active investigation",
+    "color": "556677"
+  },
+  {
+    "count": 1,
+    "name": "Fixed in TSJS repo",
+    "description": "Fix merged in https://github.com/Microsoft/TSJS-lib-generator, but not ported yet",
+    "color": "1d76db"
+  },
+  {
+    "count": 1,
+    "name": "Domain: Index Types",
+    "description": "Issues with `keyof`",
+    "color": "f7b7e9"
+  },
+  {
+    "count": 1,
+    "name": "Domain: Excess Property Checking",
+    "description": "",
+    "color": "75eaa2"
+  }
+]

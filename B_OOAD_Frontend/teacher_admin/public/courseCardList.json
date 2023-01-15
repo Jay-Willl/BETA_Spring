@@ -1,0 +1,59 @@
+[
+  {
+    "description": "CS303是人工智能",
+    "index": 1,
+    "isSetup": true,
+    "name": "CS303",
+    "type": 4
+  },
+  {
+    "description": "CS305是计算机网络",
+    "index": 2,
+    "isSetup": true,
+    "name": "CS305",
+    "type": 3
+  },
+  {
+    "description": "CS305是计算机网络",
+    "index": 2,
+    "isSetup": false,
+    "name": "CS305",
+    "type": 3
+  },
+  {
+    "description": "CS305是计算机网络",
+    "index": 2,
+    "isSetup": false,
+    "name": "CS305",
+    "type": 3
+  },
+  {
+    "description": "CS305是计算机网络",
+    "index": 2,
+    "isSetup": false,
+    "name": "CS305",
+    "type": 3
+  },
+  {
+    "description": "CS305是计算机网络",
+    "index": 2,
+    "isSetup": false,
+    "name": "CS305",
+    "type": 3
+  },
+  {
+    "description": "CS305是计算机网络",
+    "index": 2,
+    "isSetup": false,
+    "name": "CS305",
+    "type": 3
+  },
+  {
+    "description": "CS305是计算机网络",
+    "index": 2,
+    "isSetup": false,
+    "name": "CS305",
+    "type": 3
+  }
+]
+

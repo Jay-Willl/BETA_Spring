@@ -1,0 +1,2522 @@
+[
+  {
+    "count": 15668,
+    "name": "*duplicate",
+    "description": "Issue identified as a duplicate of another issue(s)",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 12261,
+    "name": "info-needed",
+    "description": "Issue requires more information from poster",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 6055,
+    "name": "*caused-by-extension",
+    "description": "Issue identified to be caused by an extension",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 5700,
+    "name": "insiders-released",
+    "description": "Patch has been released in VS Code Insiders",
+    "color": "64BEAA"
+  },
+  {
+    "count": 4938,
+    "name": "verified",
+    "description": "Verification succeeded",
+    "color": "009800"
+  },
+  {
+    "count": 4202,
+    "name": "*out-of-scope",
+    "description": "Posted issue is not in scope of VS Code",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 2782,
+    "name": "*question",
+    "description": "Issue represents a question, should be posted to StackOverflow (VS Code)",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 2563,
+    "name": "*as-designed",
+    "description": "Described behavior is as designed",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 2388,
+    "name": "debug",
+    "description": "Debug viewlet, configurations, breakpoints, adapter issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 2296,
+    "name": "terminal",
+    "description": "Integrated terminal issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 1945,
+    "name": "git",
+    "description": "GIT issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 1919,
+    "name": "javascript",
+    "description": "JavaScript support issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 1825,
+    "name": "testplan-item",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 1755,
+    "name": "extensions",
+    "description": "Issues concerning extensions",
+    "color": "c5def5"
+  },
+  {
+    "count": 1682,
+    "name": "*extension-candidate",
+    "description": "Issue identified as good extension implementation",
+    "color": "d4c5f9"
+  },
+  {
+    "count": 1433,
+    "name": "invalid",
+    "description": "Issue identified as not relevant or not valid",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 1285,
+    "name": "verification-needed",
+    "description": "Verification of issue is requested",
+    "color": "d4c5f9"
+  },
+  {
+    "count": 1152,
+    "name": "search",
+    "description": "Search widget and operation issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 994,
+    "name": "tasks",
+    "description": "Task system issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 934,
+    "name": "typescript",
+    "description": "Typescript support issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 922,
+    "name": "feature-request",
+    "description": "Request for new features or functionality",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 886,
+    "name": "under-discussion",
+    "description": "Issue is under discussion for relevance, priority, approach",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 766,
+    "name": "notebook",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 760,
+    "name": "*not-reproducible",
+    "description": "Issue cannot be reproduced by VS Code Team member as described",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 739,
+    "name": "debt",
+    "description": "Code quality issues",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 720,
+    "name": "windows",
+    "description": "VS Code on Windows issues",
+    "color": "006b75"
+  },
+  {
+    "count": 715,
+    "name": "suggest",
+    "description": "IntelliSense, Auto Complete",
+    "color": "c5def5"
+  },
+  {
+    "count": 698,
+    "name": "settings-editor",
+    "description": "VS Code settings editor issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 682,
+    "name": "file-explorer",
+    "description": "Explorer widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 637,
+    "name": "emmet",
+    "description": "Emmet related issues",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 612,
+    "name": "on-testplan",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 583,
+    "name": "candidate",
+    "description": "Issue identified as probable candidate for fixing in the next release",
+    "color": "fbca04"
+  },
+  {
+    "count": 581,
+    "name": "editor-find",
+    "description": "Editor find operations",
+    "color": "c5def5"
+  },
+  {
+    "count": 562,
+    "name": "themes",
+    "description": "Color theme issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 559,
+    "name": "engineering",
+    "description": "VS Code - Build / issue tracking / etc.",
+    "color": "fbca04"
+  },
+  {
+    "count": 548,
+    "name": "electron",
+    "description": "Issues and items related to Electron",
+    "color": "fef2c0"
+  },
+  {
+    "count": 534,
+    "name": "markdown",
+    "description": "Markdown support issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 502,
+    "name": "editor-core",
+    "description": "Editor basic functionality",
+    "color": "c5def5"
+  },
+  {
+    "count": 499,
+    "name": "scm",
+    "description": "General SCM compound issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 499,
+    "name": "upstream-issue-linked",
+    "description": "This is an upstream issue that has been reported upstream",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 492,
+    "name": "quick-pick",
+    "description": "Quick-pick widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 488,
+    "name": "error-telemetry",
+    "description": "VS Code - Issues generated by telemetry",
+    "color": "8D6673"
+  },
+  {
+    "count": 468,
+    "name": "triage-needed",
+    "description": "",
+    "color": "D4C5F9"
+  },
+  {
+    "count": 458,
+    "name": "freeze-slow-crash-leak",
+    "description": "VS Code crashing, performance, freeze and memory leak issues",
+    "color": "e11d21"
+  },
+  {
+    "count": 454,
+    "name": "linux",
+    "description": "Issues with VS Code on Linux",
+    "color": "006b75"
+  },
+  {
+    "count": 452,
+    "name": "html",
+    "description": "HTML issues and items",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 450,
+    "name": "snippets",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 446,
+    "name": "a11ymas",
+    "description": "Issue from accessibility team",
+    "color": "ededed"
+  },
+  {
+    "count": 434,
+    "name": "install-update",
+    "description": "VS Code installation and upgrade system issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 432,
+    "name": "css-less-scss",
+    "description": "Issues and items concerning CSS,Less,SCSS styling",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 430,
+    "name": "grammar",
+    "description": "Syntax highlighting grammar",
+    "color": "c5def5"
+  },
+  {
+    "count": 412,
+    "name": "webview",
+    "description": "Webview issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 407,
+    "name": "layout",
+    "description": "General VS Code workbench layout issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 402,
+    "name": "editor-folding",
+    "description": "Editor code folding issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 380,
+    "name": "settings-sync",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 364,
+    "name": "*dev-question",
+    "description": "VS Code Extension Development Question",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 363,
+    "name": "translation-required-chinese-simplified",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 359,
+    "name": "languages-basic",
+    "description": "Basic language support issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 352,
+    "name": "editor-contrib",
+    "description": "Editor collection of extras",
+    "color": "c5def5"
+  },
+  {
+    "count": 337,
+    "name": "accessibility",
+    "description": "Keyboard, mouse, ARIA, vision, screen readers (non-specific) issues",
+    "color": "d93f0b"
+  },
+  {
+    "count": 334,
+    "name": "workbench-editors",
+    "description": "Managing of editor widgets in workbench window",
+    "color": "c5def5"
+  },
+  {
+    "count": 328,
+    "name": "upstream",
+    "description": "Issue identified as 'upstream' component related (exists outside of VS Code)",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 326,
+    "name": "config",
+    "description": "VS Code configuration, set up issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 319,
+    "name": "api",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 319,
+    "name": "workspace-trust",
+    "description": "Trusted workspaces",
+    "color": "c5def5"
+  },
+  {
+    "count": 316,
+    "name": "editor-rendering",
+    "description": "Editor rendering issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 316,
+    "name": "ux",
+    "description": "User experience issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 306,
+    "name": "workbench-tabs",
+    "description": "VS Code editor tab issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 305,
+    "name": "workbench-multiroot",
+    "description": "Multi-root (multiple folders) issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 304,
+    "name": "l10n-platform",
+    "description": "Localization platform issues (not wrong translations)",
+    "color": "c5def5"
+  },
+  {
+    "count": 297,
+    "name": "json",
+    "description": "JSON support issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 292,
+    "name": "editor-autoindent",
+    "description": "Editor auto indentation issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 289,
+    "name": "testing",
+    "description": "Built-in testing support",
+    "color": "c5def5"
+  },
+  {
+    "count": 280,
+    "name": "terminal-tabs",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 280,
+    "name": "tree-views",
+    "description": "Extension tree view issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 267,
+    "name": "perf",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 264,
+    "name": "getting-started",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 263,
+    "name": "web",
+    "description": "Issues related to running VSCode in the web",
+    "color": "c5def5"
+  },
+  {
+    "count": 255,
+    "name": "*english-please",
+    "description": "Issue not using English",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 252,
+    "name": "wont-fix",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 248,
+    "name": "formatting",
+    "description": "Source formatter issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 247,
+    "name": "php",
+    "description": "PHP support issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 242,
+    "name": "tree-widget",
+    "description": "Tree widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 234,
+    "name": "polish",
+    "description": "Cleanup and polish issue",
+    "color": "fbca04"
+  },
+  {
+    "count": 234,
+    "name": "terminal-shell-integration",
+    "description": "Shell integration, command decorations, etc.",
+    "color": "c5def5"
+  },
+  {
+    "count": 231,
+    "name": "remote",
+    "description": "Remote system operations issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 228,
+    "name": "bug",
+    "description": "Issue identified by VS Code Team member as probable bug",
+    "color": "8D6673"
+  },
+  {
+    "count": 222,
+    "name": "keybindings",
+    "description": "VS Code keybinding issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 219,
+    "name": "workbench-views",
+    "description": "Workbench view issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 218,
+    "name": "menus",
+    "description": "Menu items and widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 218,
+    "name": "outline",
+    "description": "Source outline view issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 216,
+    "name": "macos",
+    "description": "Issues with VS Code on MAC/OS X",
+    "color": "006b75"
+  },
+  {
+    "count": 215,
+    "name": "error-list",
+    "description": "Problems view",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 204,
+    "name": "breadcrumbs",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 203,
+    "name": "file-watcher",
+    "description": "File watcher",
+    "color": "c5def5"
+  },
+  {
+    "count": 196,
+    "name": "custom-editors",
+    "description": "Custom editor API (webview based editors)",
+    "color": "c5def5"
+  },
+  {
+    "count": 181,
+    "name": "icons-product",
+    "description": "Issues for in-product icons",
+    "color": "c5def5"
+  },
+  {
+    "count": 181,
+    "name": "smoke-test-failure",
+    "description": "",
+    "color": "e11d21"
+  },
+  {
+    "count": 178,
+    "name": "diff-editor",
+    "description": "Diff editor mode issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 172,
+    "name": "on-release-notes",
+    "description": "Issue/pull request mentioned in release notes",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 172,
+    "name": "workbench-os-integration",
+    "description": "Native OS integration issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 171,
+    "name": "regression",
+    "description": "Something that used to work is now broken",
+    "color": "8D6673"
+  },
+  {
+    "count": 170,
+    "name": "authentication",
+    "description": "Authentication issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 163,
+    "name": "workbench-hot-exit",
+    "description": "Preservation of unsaved changes across restarts",
+    "color": "c5def5"
+  },
+  {
+    "count": 158,
+    "name": "font-rendering",
+    "description": "Font rendering issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 155,
+    "name": "editor-hover",
+    "description": "Editor mouse hover",
+    "color": "c5def5"
+  },
+  {
+    "count": 151,
+    "name": "plan-item",
+    "description": "VS Code - planned item for upcoming",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 149,
+    "name": "editor-minimap",
+    "description": "Code/Text minimap widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 147,
+    "name": "workbench-editor-grid",
+    "description": "Grid layout issues in the editor area",
+    "color": "c5def5"
+  },
+  {
+    "count": 144,
+    "name": "titlebar",
+    "description": "VS Code main title bar issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 141,
+    "name": "editor-code-actions",
+    "description": "Editor inplace actions (Ctrl + .)",
+    "color": "c5def5"
+  },
+  {
+    "count": 140,
+    "name": "confirmed",
+    "description": "Issue has been confirmed by VS Code Team member",
+    "color": "009800"
+  },
+  {
+    "count": 140,
+    "name": "keyboard-layout",
+    "description": "Keyboard layout issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 139,
+    "name": "editor-wrapping",
+    "description": "Editor line wrapping issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 138,
+    "name": "file-io",
+    "description": "File I/O",
+    "color": "c5def5"
+  },
+  {
+    "count": 138,
+    "name": "good first issue",
+    "description": "Issues identified as good for first-time contributors",
+    "color": "fef2c0"
+  },
+  {
+    "count": 134,
+    "name": "editor-multicursor",
+    "description": "Editor multiple cursor issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 134,
+    "name": "release-notes",
+    "description": "Release notes issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 133,
+    "name": "proxy",
+    "description": "Issues regarding network proxies",
+    "color": "c5def5"
+  },
+  {
+    "count": 132,
+    "name": "api-proposal",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 132,
+    "name": "editor-commands",
+    "description": "Editor text manipulation commands",
+    "color": "c5def5"
+  },
+  {
+    "count": 132,
+    "name": "extension-host",
+    "description": "Extension host issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 131,
+    "name": "issue-reporter",
+    "description": "Issue reporter widget issues",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 130,
+    "name": "editor-clipboard",
+    "description": "Editor clipboard issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 130,
+    "name": "workbench-notifications",
+    "description": "Notification widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 128,
+    "name": "workbench-window",
+    "description": "Window management",
+    "color": "c5def5"
+  },
+  {
+    "count": 123,
+    "name": "perf-startup",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 123,
+    "name": "terminal-profiles",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 121,
+    "name": "keybindings-editor",
+    "description": "Keybinding editor issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 119,
+    "name": "editor-input-IME",
+    "description": "Editor input of characters not on keyboard",
+    "color": "c5def5"
+  },
+  {
+    "count": 118,
+    "name": "editor-autoclosing",
+    "description": "Editor automatic closing of parens / brackets / etc.",
+    "color": "c5def5"
+  },
+  {
+    "count": 118,
+    "name": "list-widget",
+    "description": "List widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 118,
+    "name": "search-editor",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 117,
+    "name": "terminal-editors",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 116,
+    "name": "editor-symbols",
+    "description": "definitions, declarations, references",
+    "color": "c5def5"
+  },
+  {
+    "count": 115,
+    "name": "api-finalization",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 115,
+    "name": "notebook-markdown",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 115,
+    "name": "workbench-cli",
+    "description": "VS Code Command line issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 114,
+    "name": "author-verification-requested",
+    "description": "Issues potentially verifiable by issue author",
+    "color": "d4c5f9"
+  },
+  {
+    "count": 114,
+    "name": "endgame-plan",
+    "description": "VS Code - Next release plan for endgame",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 113,
+    "name": "workbench-diagnostics",
+    "description": "General VS Code built-in diagnostic issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 109,
+    "name": "important",
+    "description": "Issue identified as high-priority",
+    "color": "e11d21"
+  },
+  {
+    "count": 107,
+    "name": "gpu",
+    "description": "Issues concerning GPU related items",
+    "color": "c5def5"
+  },
+  {
+    "count": 106,
+    "name": "notebook-output",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 106,
+    "name": "semantic-tokens",
+    "description": "Semantic tokens issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 105,
+    "name": "workbench-history",
+    "description": "History item issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 104,
+    "name": "perf-profile",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 104,
+    "name": "workbench-welcome",
+    "description": "Welcome page issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 98,
+    "name": "WSL",
+    "description": "Issue when using WSL",
+    "color": "006b75"
+  },
+  {
+    "count": 97,
+    "name": "L10N",
+    "description": "Translation issue",
+    "color": "c5def5"
+  },
+  {
+    "count": 95,
+    "name": "comments",
+    "description": "Comments Provider/Widget/Panel issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 92,
+    "name": "integration-test-failure",
+    "description": "",
+    "color": "e11d21"
+  },
+  {
+    "count": 92,
+    "name": "papercut :drop_of_blood:",
+    "description": "",
+    "color": "8D6673"
+  },
+  {
+    "count": 91,
+    "name": "editor-bracket-matching",
+    "description": "Editor brace matching",
+    "color": "c5def5"
+  },
+  {
+    "count": 90,
+    "name": "terminal-links",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 89,
+    "name": "editor-color-picker",
+    "description": "Editor color picker widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 87,
+    "name": "bracket-pair-colorization",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 87,
+    "name": "output",
+    "description": "Output channel system issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 83,
+    "name": "dropdown",
+    "description": "DropDown (SelectBox widget) native and custom issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 83,
+    "name": "icon-brand",
+    "description": "VS Code brand icon issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 81,
+    "name": "*off-topic",
+    "description": "This issue is not related to this project or is not actionable.",
+    "color": "e3e3e3"
+  },
+  {
+    "count": 81,
+    "name": "confirmation-pending",
+    "description": "null",
+    "color": "ededed"
+  },
+  {
+    "count": 81,
+    "name": "undo-redo",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 80,
+    "name": "file-decorations",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 78,
+    "name": "inline-completions",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 78,
+    "name": "languages-diagnostics",
+    "description": "Source problems reporting",
+    "color": "c5def5"
+  },
+  {
+    "count": 78,
+    "name": "references-viewlet",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 78,
+    "name": "snap",
+    "description": "Issues related to the snap package",
+    "color": "c5def5"
+  },
+  {
+    "count": 78,
+    "name": "workbench-state",
+    "description": "UI state across restarts",
+    "color": "c5def5"
+  },
+  {
+    "count": 77,
+    "name": "interactive-window",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 77,
+    "name": "uri",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 76,
+    "name": "workbench-editor-resolver",
+    "description": "Issues resolving the editor inputs",
+    "color": "c5def5"
+  },
+  {
+    "count": 75,
+    "name": "quick-open",
+    "description": "Quick-open issues (search, commands)",
+    "color": "c5def5"
+  },
+  {
+    "count": 75,
+    "name": "workbench-status",
+    "description": "Status bar",
+    "color": "c5def5"
+  },
+  {
+    "count": 74,
+    "name": "vscode-build",
+    "description": "VS Code build process issues",
+    "color": "e11d21"
+  },
+  {
+    "count": 73,
+    "name": "iteration-plan",
+    "description": "VS Code - Upcoming iteration plan",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 73,
+    "name": "timeline",
+    "description": "Timeline view issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 73,
+    "name": "verification-found",
+    "description": "Issue verification failed",
+    "color": "f7c6c7"
+  },
+  {
+    "count": 72,
+    "name": "code-lens",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 72,
+    "name": "workbench-zen",
+    "description": "Full screen 'Zen' view issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 70,
+    "name": "notebook-triage",
+    "description": "Indicates notebook team has not looked at yet",
+    "color": "FBCA04"
+  },
+  {
+    "count": 69,
+    "name": "ios-ipados",
+    "description": "",
+    "color": "006b75"
+  },
+  {
+    "count": 69,
+    "name": "marketplace",
+    "description": "Microsoft VS Code Marketplace issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 69,
+    "name": "workspace-edit",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 66,
+    "name": "dependencies",
+    "description": "Pull requests that update a dependency file",
+    "color": "0366d6"
+  },
+  {
+    "count": 66,
+    "name": "editor-parameter-hints",
+    "description": "Function, method and class parameter hint widget",
+    "color": "c5def5"
+  },
+  {
+    "count": 65,
+    "name": "editor-textbuffer",
+    "description": "Editor text buffer",
+    "color": "c5def5"
+  },
+  {
+    "count": 64,
+    "name": "macos-big-sur",
+    "description": "",
+    "color": "006b75"
+  },
+  {
+    "count": 64,
+    "name": "rename",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 64,
+    "name": "upstream-issue-fixed",
+    "description": "The underlying upstream issue has been fixed",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 63,
+    "name": "merge-conflict",
+    "description": "Merge conflict decorations and actions",
+    "color": "c5def5"
+  },
+  {
+    "count": 62,
+    "name": "trackpad/scroll",
+    "description": "Trackpad device issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 61,
+    "name": "notebook-layout",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 61,
+    "name": "telemetry",
+    "description": "Telemetry system issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 60,
+    "name": "editor-columnselect",
+    "description": "Editor column selection issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 60,
+    "name": "file-encoding",
+    "description": "File encoding type issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 58,
+    "name": "chromium",
+    "description": "Issues and items related to Chromium",
+    "color": "006b75"
+  },
+  {
+    "count": 58,
+    "name": "simple-file-dialog",
+    "description": "Issues with simple file dialog",
+    "color": "c5def5"
+  },
+  {
+    "count": 57,
+    "name": "editor-input",
+    "description": "Editor text input",
+    "color": "c5def5"
+  },
+  {
+    "count": 56,
+    "name": "editor-scrollbar",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 54,
+    "name": "inlay-hints",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 54,
+    "name": "live-preview",
+    "description": "Issues for the Live Preview extension. Please file these under the vscode-livepreview repo instead.",
+    "color": "c5def5"
+  },
+  {
+    "count": 53,
+    "name": "notebook-kernel",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 52,
+    "name": "terminal-rendering",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 52,
+    "name": "vscode.dev",
+    "description": "Issues related to vscode.dev",
+    "color": "c5def5"
+  },
+  {
+    "count": 51,
+    "name": "dialogs",
+    "description": "Issues with native and custom dialogs",
+    "color": "c5def5"
+  },
+  {
+    "count": 51,
+    "name": "languages-guessing",
+    "description": "Language guessing issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 51,
+    "name": "log",
+    "description": "VS Code log issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 51,
+    "name": "remote-explorer",
+    "description": "Remote explorer view",
+    "color": "c5def5"
+  },
+  {
+    "count": 51,
+    "name": "translation-required-portuguese-brazil",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 50,
+    "name": "unit-test-failure",
+    "description": "",
+    "color": "e11d21"
+  },
+  {
+    "count": 49,
+    "name": "terminal-process",
+    "description": "Problems launching processes, managing ptys, exiting, process leaks, etc.",
+    "color": "c5def5"
+  },
+  {
+    "count": 49,
+    "name": "zoom",
+    "description": "VS Code window zoom issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 48,
+    "name": "extensions-development",
+    "description": "Issues for developing extensions",
+    "color": "c5def5"
+  },
+  {
+    "count": 48,
+    "name": "sandbox",
+    "description": "Running VSCode in a node-free environment",
+    "color": "c5def5"
+  },
+  {
+    "count": 47,
+    "name": "search-replace",
+    "description": "Search and replace issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 46,
+    "name": "terminal-find",
+    "description": "Relating the terminal's find widget",
+    "color": "c5def5"
+  },
+  {
+    "count": 44,
+    "name": ":apple: si",
+    "description": "Issues related to apple silicon",
+    "color": "e99695"
+  },
+  {
+    "count": 44,
+    "name": "smart-select",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 44,
+    "name": "workbench-hover",
+    "description": "Hover issues in the workbench",
+    "color": "c5def5"
+  },
+  {
+    "count": 43,
+    "name": "translation-required-japanese",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 42,
+    "name": "variable-resolving",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 41,
+    "name": "editor-comments",
+    "description": "Editor commenting/uncommenting commands",
+    "color": "c5def5"
+  },
+  {
+    "count": 41,
+    "name": "terminal-conpty",
+    "description": "Integrated terminal issues related to the ConPTY backend",
+    "color": "c5def5"
+  },
+  {
+    "count": 41,
+    "name": "VIM",
+    "description": "VIM issue",
+    "color": "c5def5"
+  },
+  {
+    "count": 40,
+    "name": "macos-catalina",
+    "description": "",
+    "color": "006b75"
+  },
+  {
+    "count": 38,
+    "name": "editor-wordnav",
+    "description": "Editor word navigation issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 38,
+    "name": "terminal-input",
+    "description": "Relating to typing in the terminal not doing the right thing, IMEs not working, etc.",
+    "color": "c5def5"
+  },
+  {
+    "count": 38,
+    "name": "terminal-local-echo",
+    "description": "Relating to the terminal's local echo and line editing for remote windows",
+    "color": "c5def5"
+  },
+  {
+    "count": 37,
+    "name": "firefox",
+    "description": "Issues running VSCode in Web on Firefox",
+    "color": "006b75"
+  },
+  {
+    "count": 37,
+    "name": "notebook-api",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 37,
+    "name": "workbench-run-as-admin",
+    "description": "Issues concerning running as administrator",
+    "color": "c5def5"
+  },
+  {
+    "count": 36,
+    "name": "notebook-diff",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 34,
+    "name": "screencast-mode",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 34,
+    "name": "terminal-persistence",
+    "description": "Relating to process reconnection or process revive",
+    "color": "c5def5"
+  },
+  {
+    "count": 34,
+    "name": "workbench-dnd",
+    "description": "Drag-and-drop issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 33,
+    "name": "callhierarchy",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 33,
+    "name": "editor-drag-and-drop",
+    "description": "Editor UI drag-and-drop operations",
+    "color": "c5def5"
+  },
+  {
+    "count": 33,
+    "name": "translation-required-russian",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 32,
+    "name": "editor-RTL",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 32,
+    "name": "tokenization",
+    "description": "Text tokenization",
+    "color": "c5def5"
+  },
+  {
+    "count": 31,
+    "name": "bracket-pair-guides",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 31,
+    "name": "github-codespaces",
+    "description": "",
+    "color": "000000"
+  },
+  {
+    "count": 31,
+    "name": "nb-golden",
+    "description": "Issue affecting Jupyter Notebook mainline scenario (does not imply \"important\" treatment)",
+    "color": "FBCA04"
+  },
+  {
+    "count": 30,
+    "name": "safari",
+    "description": "Issues running VSCode in Web on Safari",
+    "color": "006b75"
+  },
+  {
+    "count": 29,
+    "name": "nodejs",
+    "description": "NodeJS support issues",
+    "color": "fef2c0"
+  },
+  {
+    "count": 29,
+    "name": "terminal-layout",
+    "description": "Issue relating to resizing, scroll bar position, terminal dimensions, etc.",
+    "color": "c5def5"
+  },
+  {
+    "count": 29,
+    "name": "workbench-electron",
+    "description": "Electron-VS Code issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 29,
+    "name": "workbench-untitled-editors",
+    "description": "Managing of untitled editors in workbench window",
+    "color": "c5def5"
+  },
+  {
+    "count": 28,
+    "name": "editor-api",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 28,
+    "name": "unicode-highlight",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 27,
+    "name": "editor-error-widget",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 27,
+    "name": "notebook-polish",
+    "description": "",
+    "color": "fbca04"
+  },
+  {
+    "count": 26,
+    "name": "context-keys",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 26,
+    "name": "notebook-commands",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 26,
+    "name": "notebook-rendering",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 26,
+    "name": "open-editors",
+    "description": "Issues related to the OPEN EDITORS view",
+    "color": "c5def5"
+  },
+  {
+    "count": 26,
+    "name": "workbench-link",
+    "description": "Link protection in workbench",
+    "color": "c5def5"
+  },
+  {
+    "count": 25,
+    "name": "editor-synced-region",
+    "description": "Issues related to synced region functionality in editor",
+    "color": "c5def5"
+  },
+  {
+    "count": 25,
+    "name": "editor-theming",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 25,
+    "name": "electron-16-update",
+    "description": "Issues related to electron 16 update",
+    "color": "FBCA04"
+  },
+  {
+    "count": 25,
+    "name": "electron-17-update",
+    "description": "Issues related to electron 17 update",
+    "color": "FBCA04"
+  },
+  {
+    "count": 25,
+    "name": "network",
+    "description": "Network related issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 25,
+    "name": "notebook-workbench-integration",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 24,
+    "name": "editor-render-whitespace",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 24,
+    "name": "notebook-find",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 24,
+    "name": "remote-connection",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 24,
+    "name": "timeline-git",
+    "description": "Timeline view issues with Git history",
+    "color": "c5def5"
+  },
+  {
+    "count": 24,
+    "name": "touch/pointer",
+    "description": "Touch and Pointer Device support related issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 23,
+    "name": "editor-indent-detection",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 23,
+    "name": "editor-indent-guides",
+    "description": "Editor indentation guides",
+    "color": "c5def5"
+  },
+  {
+    "count": 23,
+    "name": "lcd-text-rendering",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 23,
+    "name": "webview-views",
+    "description": "Webview views in the sidebar and panel",
+    "color": "c5def5"
+  },
+  {
+    "count": 22,
+    "name": "github",
+    "description": "Github extension",
+    "color": "c5def5"
+  },
+  {
+    "count": 22,
+    "name": "notebook-execution",
+    "description": "Issues related to running cells in a notebook",
+    "color": "c5def5"
+  },
+  {
+    "count": 22,
+    "name": "workbench-editor-groups",
+    "description": "Issues related to editor groups",
+    "color": "c5def5"
+  },
+  {
+    "count": 21,
+    "name": "bot-proposal",
+    "description": "",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 21,
+    "name": "mojave",
+    "description": "VS Code on OS X Mojave issues",
+    "color": "006b75"
+  },
+  {
+    "count": 21,
+    "name": "upstream-issue-pending",
+    "description": "Issues that are caused by chromium but have not been reported due to pending minimal repro",
+    "color": "A3C48D"
+  },
+  {
+    "count": 20,
+    "name": "debug-disassembly",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 20,
+    "name": "extension-recommendations",
+    "description": "Extension recommendations issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 20,
+    "name": "macos-monterey",
+    "description": "",
+    "color": "006b75"
+  },
+  {
+    "count": 20,
+    "name": "splitview-widget",
+    "description": "Splitview UI system issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 20,
+    "name": "translation-required-spanish",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 19,
+    "name": "notebook-dnd",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 19,
+    "name": "timeline-local-history",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 18,
+    "name": "mitigated",
+    "description": "Issue has workaround in place",
+    "color": "009800"
+  },
+  {
+    "count": 18,
+    "name": "notebook-cell-editor",
+    "description": "Bugs related to code editors in Notebooks (not intellisense / LS's)",
+    "color": "c5def5"
+  },
+  {
+    "count": 17,
+    "name": "ghost-text",
+    "description": "Issues related to ghost text (used for inline-completions and suggestion preview)",
+    "color": "c5def5"
+  },
+  {
+    "count": 17,
+    "name": "intellisense-config",
+    "description": "Intellisense configuration issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 17,
+    "name": "perf-bloat",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 17,
+    "name": "workbench-touchbar",
+    "description": "Mac touchbar issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 16,
+    "name": "wayland",
+    "description": "Issue related to wayland display server",
+    "color": "006b75"
+  },
+  {
+    "count": 15,
+    "name": "help wanted",
+    "description": "Issues identified as good community contribution opportunities",
+    "color": "fef2c0"
+  },
+  {
+    "count": 15,
+    "name": "notebook-multiselect",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 15,
+    "name": "notebook-perf",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 15,
+    "name": "notebook-serialization",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 15,
+    "name": "server",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 15,
+    "name": "translation-required-french",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 15,
+    "name": "workbench-rapid-render",
+    "description": "Splash during startup",
+    "color": "c5def5"
+  },
+  {
+    "count": 14,
+    "name": "label-provider",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 14,
+    "name": "portable-mode",
+    "description": "VS Code portable mode issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 14,
+    "name": "windows 11",
+    "description": "VS Code on Windows 11 issues",
+    "color": "006b75"
+  },
+  {
+    "count": 14,
+    "name": "workbench-feedback",
+    "description": "Feedback widget issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 13,
+    "name": "keep",
+    "description": "Issues we should not close as out of scope",
+    "color": "009800"
+  },
+  {
+    "count": 13,
+    "name": "notebook-ipynb",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 13,
+    "name": "notebook-toc-outline",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 12,
+    "name": "emmet-parse",
+    "description": "Issue caused by the current Emmet parser",
+    "color": "c5def5"
+  },
+  {
+    "count": 12,
+    "name": "file-glob",
+    "description": "File glob engine",
+    "color": "c5def5"
+  },
+  {
+    "count": 12,
+    "name": "grid-widget",
+    "description": "Grid view widget",
+    "color": "c5def5"
+  },
+  {
+    "count": 12,
+    "name": "license",
+    "description": "VS Code and component license issues",
+    "color": "0e8a16"
+  },
+  {
+    "count": 12,
+    "name": "sash-widget",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 11,
+    "name": "electron-blocker",
+    "description": "Issues in next update of Electron preventing update",
+    "color": "e11d21"
+  },
+  {
+    "count": 11,
+    "name": "issue-bot",
+    "description": "Issues concerning the issue bot!",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 11,
+    "name": "notebook-clipboard",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 11,
+    "name": "notebook-regression",
+    "description": "",
+    "color": "8D6673"
+  },
+  {
+    "count": 11,
+    "name": "notebook-workflow",
+    "description": "Issues that interrupt expected or desirable behavior",
+    "color": "c5def5"
+  },
+  {
+    "count": 11,
+    "name": "settings-sync-server",
+    "description": "Settings Sync Server Issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 11,
+    "name": "workbench-actions",
+    "description": "Workbench Actions Support",
+    "color": "c5def5"
+  },
+  {
+    "count": 11,
+    "name": "workspace-symbols",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "accessibility-sla",
+    "description": "Accessibility issue which have to be fixed or lowered severity based on process",
+    "color": "e11d21"
+  },
+  {
+    "count": 10,
+    "name": "editor-highlight",
+    "description": "Editor selection/word highlight issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "interactive-playground",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "notebook-folding",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "user-profiles",
+    "description": "User profile management",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "workbench-launch",
+    "description": "Workbench launch",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "workbench-workspace",
+    "description": "Workspace issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 9,
+    "name": "ghcs-scenario-found",
+    "description": "",
+    "color": "000000"
+  },
+  {
+    "count": 9,
+    "name": "notebook-celltoolbar",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 9,
+    "name": "question-discussion",
+    "description": "Question that could be a discussion topic (experimental label)",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 9,
+    "name": "search-api",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "bisect-ext",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "command-center",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "electron-12-update",
+    "description": "Issues and items related to electron 12 update",
+    "color": "FBCA04"
+  },
+  {
+    "count": 8,
+    "name": "native-file-dialog",
+    "description": "Issues with native file dialog",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "notebook-statusbar",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "settings-search",
+    "description": "Settings editor remote search provider issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "ssh",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "terminal-external",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 8,
+    "name": "translation-required-korean",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 7,
+    "name": "edge",
+    "description": "Issues running VSCode in Web on Edge",
+    "color": "006b75"
+  },
+  {
+    "count": 7,
+    "name": "editor-insets",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 7,
+    "name": "editor-sorting",
+    "description": "Issues related to editor sorting functionality.",
+    "color": "c5def5"
+  },
+  {
+    "count": 7,
+    "name": "fixed-in-electron-18",
+    "description": "Issues fixed with Electron 18.x update",
+    "color": "0e8a16"
+  },
+  {
+    "count": 7,
+    "name": "hacktoberfest",
+    "description": "",
+    "color": "D93F0B"
+  },
+  {
+    "count": 7,
+    "name": "terminal-winpty",
+    "description": "Integrated terminal issues related to the WinPTY backend",
+    "color": "c5def5"
+  },
+  {
+    "count": 7,
+    "name": "translation-required-italian",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 7,
+    "name": "verification-steps-needed",
+    "description": "Steps to verify are needed for verification",
+    "color": "fbca04"
+  },
+  {
+    "count": 7,
+    "name": "virtual-machine",
+    "description": "Issues related to virtualbox, parallels etc",
+    "color": "006b75"
+  },
+  {
+    "count": 6,
+    "name": "~info-needed",
+    "description": "Issue requires more information from poster (with bot comment)",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 6,
+    "name": "~version-info-needed",
+    "description": "Issue requires version information from poster",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 6,
+    "name": "fixed-in-electron-14",
+    "description": "Issues fixed with Electron 14.x update",
+    "color": "0e8a16"
+  },
+  {
+    "count": 6,
+    "name": "github-repositories",
+    "description": "Issues related to GitHub Repositories",
+    "color": "c5def5"
+  },
+  {
+    "count": 6,
+    "name": "hackathon",
+    "description": "Label reserved for specific events",
+    "color": "DDC099"
+  },
+  {
+    "count": 6,
+    "name": "iw-golden",
+    "description": "Issue affecting Jupyter Interactive Window mainline scenario (does not imply \"important\" treatment)",
+    "color": "FBCA04"
+  },
+  {
+    "count": 6,
+    "name": "notebook-undo-redo",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 6,
+    "name": "shared-process",
+    "description": "VS Code shared process issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 6,
+    "name": "translation-required-german",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 6,
+    "name": "windows 7",
+    "description": "VS Code on Windows 7 issues",
+    "color": "006b75"
+  },
+  {
+    "count": 5,
+    "name": "image-preview",
+    "description": "Built-in image preview extension",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 5,
+    "name": "monaco-editor",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 5,
+    "name": "notebook-globaltoolbar",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 5,
+    "name": "translation-required-chinese-traditional",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 4,
+    "name": "a11y-partner",
+    "description": "Accessibility issue that a parter team is depending on",
+    "color": "ededed"
+  },
+  {
+    "count": 4,
+    "name": "chrome-devtools",
+    "description": "Issues related to developer tools",
+    "color": "c5def5"
+  },
+  {
+    "count": 4,
+    "name": "extension-activation",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 4,
+    "name": "ghcs-in-progress",
+    "description": "",
+    "color": "000000"
+  },
+  {
+    "count": 4,
+    "name": "hacktoberfest-accepted",
+    "description": "",
+    "color": "D93F0B"
+  },
+  {
+    "count": 4,
+    "name": "notebook-language",
+    "description": "Bugs related to general interaction with languages / intellisense",
+    "color": "c5def5"
+  },
+  {
+    "count": 4,
+    "name": "security",
+    "description": "",
+    "color": "e11d21"
+  },
+  {
+    "count": 4,
+    "name": "table-widget",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 4,
+    "name": "terminal-shell-pwsh",
+    "description": "An issue in the terminal specific to PowerShell",
+    "color": "c5def5"
+  },
+  {
+    "count": 4,
+    "name": "translation-required-turkish",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 4,
+    "name": "typehierarchy",
+    "description": "",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 4,
+    "name": "winget",
+    "description": "Issues related to winget packages",
+    "color": "006b75"
+  },
+  {
+    "count": 3,
+    "name": "extension-prerelease",
+    "description": "Issues related extension prerelease support",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "fixed-in-electron-13",
+    "description": "Issues fixed with Electron 13.x update",
+    "color": "0e8a16"
+  },
+  {
+    "count": 3,
+    "name": "fixed-in-electron-16",
+    "description": "Issues fixed with Electron 16.x update",
+    "color": "0e8a16"
+  },
+  {
+    "count": 3,
+    "name": "fixed-in-electron-17",
+    "description": "Issues fixed with electron 17 update",
+    "color": "0e8a16"
+  },
+  {
+    "count": 3,
+    "name": "ghcs-pushed",
+    "description": "",
+    "color": "000000"
+  },
+  {
+    "count": 3,
+    "name": "notebook-builtin-renderers",
+    "description": "Builtin notebook output renderers for HTML, JS and images",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "notebook-getting-started",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "notebook-math",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "notebook-minimap",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "packaging",
+    "description": "Issues with the package config or distribution",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "rpm",
+    "description": "Issues related to the rpm package",
+    "color": "006b75"
+  },
+  {
+    "count": 3,
+    "name": "terminal-shell-zsh",
+    "description": "An issue in the terminal specific to zsh",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "translation-required-arabic",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 3,
+    "name": "virtual-workspaces",
+    "description": "Issues related to Virtual Workspace",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "vscode-website",
+    "description": "Microsoft VS Code website issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 2,
+    "name": "electron-13-update",
+    "description": "Issues related to electron 13 update",
+    "color": "FBCA04"
+  },
+  {
+    "count": 2,
+    "name": "github-authentication",
+    "description": "",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 2,
+    "name": "help translation",
+    "description": "Issues related to translation - translation help wanted",
+    "color": "fef2c0"
+  },
+  {
+    "count": 2,
+    "name": "merge-editor",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 2,
+    "name": "multi-monitor",
+    "description": "Issues with multiple display setups",
+    "color": "2FB165"
+  },
+  {
+    "count": 2,
+    "name": "opener",
+    "description": "Opener service issues",
+    "color": "c5def5"
+  },
+  {
+    "count": 2,
+    "name": "remote-desktop",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 2,
+    "name": "terminal-shell-bash",
+    "description": "An issue in the terminal specific to bash",
+    "color": "c5def5"
+  },
+  {
+    "count": 2,
+    "name": "workbench-fonts",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "*workspace-trust-docs",
+    "description": "Issue to be resolved via workspace trust documentation",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 1,
+    "name": "containers",
+    "description": "",
+    "color": "C5DEF5"
+  },
+  {
+    "count": 1,
+    "name": "debug-console",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "docs-experience",
+    "description": "null",
+    "color": "1f8893"
+  },
+  {
+    "count": 1,
+    "name": "editor-sticky-scroll",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "electron-19-update",
+    "description": "",
+    "color": "fbca04"
+  },
+  {
+    "count": 1,
+    "name": "electron-22-update",
+    "description": "",
+    "color": "fbca04"
+  },
+  {
+    "count": 1,
+    "name": "fixed-in-electron-22",
+    "description": "Issues fixed with Electron 22.x update",
+    "color": "0e8a16"
+  },
+  {
+    "count": 1,
+    "name": "ghcs-adoption-needed",
+    "description": "",
+    "color": "000000"
+  },
+  {
+    "count": 1,
+    "name": "ghcs-scenario-blocking",
+    "description": "",
+    "color": "000000"
+  },
+  {
+    "count": 1,
+    "name": "invalid-testplan-item",
+    "description": "",
+    "color": "f2e946"
+  },
+  {
+    "count": 1,
+    "name": "merge-editor-workbench",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "notebook-commenting",
+    "description": "Commenting support for notebooks",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "notebook-debugging",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "terminal-shell-fish",
+    "description": "An issue in the terminal specific to fish",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "terminal-shell-git-bash",
+    "description": "An issue in the terminal specific to git bash on Windows",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "translation-required-polish",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 1,
+    "name": "translation-required-thai",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 1,
+    "name": "translation-required-undefined",
+    "description": "",
+    "color": "c29cff"
+  },
+  {
+    "count": 1,
+    "name": "triage",
+    "description": "null",
+    "color": "fbca04"
+  },
+  {
+    "count": 1,
+    "name": "unreleased",
+    "description": "Patch has not yet been released in VS Code Insiders",
+    "color": "D1B697"
+  }
+]

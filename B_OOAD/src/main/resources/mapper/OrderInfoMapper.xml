@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.OrderInfoMapper">
+    <insert id="insertOrderInfo">
+        insert into order_info (id,title,order_no,user_id,total_fee,order_status)
+        values (null,#{title},#{order_no},#{user_id},#{total_fee},#{order_status});
+    </insert>
+
+    <select id="selectNoPayOrderInfo" resultType="edu.sustech.ooad.entity.OrderInfo">
+        select * from order_info where order_status = "未支付";
+    </select>
+
+    <select id="selectOrderInfoByOrderNo" resultType="edu.sustech.ooad.entity.OrderInfo">
+        select * from order_info where order_no = #{order_no};
+    </select>
+
+    <update id="updateStatusByOrderNo">
+        update order_info set order_status = "已支付" where order_no = #{order_no};
+    </update>
+</mapper>

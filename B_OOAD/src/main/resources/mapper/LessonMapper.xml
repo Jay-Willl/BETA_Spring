@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.LessonMapper">
+
+    <insert id="insertLesson">
+        insert into lesson (lesson_id, lesson_index, lesson_title, lesson_description, lesson_viewcounts, lesson_score, chapter_id)
+        values (#{lesson_id}, #{lesson_index}, #{lesson_title}, #{lesson_description}, #{lesson_viewcounts}, #{lesson_score}, #{chapter_id});
+    </insert>
+
+    <insert id="insertLessonId">
+        insert into lesson (lesson_id, lesson_index, lesson_title, lesson_description, lesson_viewcounts, lesson_score, chapter_id)
+        values (#{lesson_id}, null, null, null, null, null, null);
+    </insert>
+
+    <update id="updateLesson">
+        update lesson set lesson_title = #{lesson_title}, lesson_description = #{lesson_description}, lesson_score = #{lesson_score}
+        where chapter_id = #{chapter_id};
+    </update>
+
+    <update id="updateLessonAll">
+        update lesson
+        set
+            lesson_index = #{lesson_index}, lesson_title = #{lesson_title}, lesson_description = #{lesson_description},
+            lesson_viewcounts = 0, lesson_score = #{lesson_score}, chapter_id = #{chapter_id}
+        where lesson_id = #{lesson_id};
+    </update>
+
+
+    <update id="updateLessonOg">
+        update lesson
+        set lesson_title = #{lesson_title}, lesson_description = #{lesson_description}, lesson_score = #{lesson_score}
+        where lesson_id = #{lesson_id};
+    </update>
+
+    <update id="addLessonViewcountByLessonId">
+        update lesson
+        set lesson_viewcounts = lesson_viewcounts + 1
+        where lesson_id = #{lesson_id};
+    </update>
+
+    <delete id="deleteLesson">
+        delete from lesson where chapter_id = #{chapter_id} and lesson_index = #{lesson_index};
+    </delete>
+
+
+    <select id="selectLessonsByChapterId" resultType="edu.sustech.ooad.entity.Lesson">
+        select * from lesson where chapter_id = #{chapter_id};
+    </select>
+
+    <select id="selectLessonByLessonId" resultType="edu.sustech.ooad.entity.Lesson">
+        select * from lesson where lesson_id = #{lesson_id};
+    </select>
+</mapper>

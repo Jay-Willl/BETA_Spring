@@ -1,0 +1,392 @@
+[
+  {
+    "count": 239,
+    "name": "bug",
+    "description": "",
+    "color": "8D6673"
+  },
+  {
+    "count": 215,
+    "name": "*question",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 164,
+    "name": "info-needed",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 162,
+    "name": "feature-request",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 105,
+    "name": "typescript",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 99,
+    "name": "grammars",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 71,
+    "name": "question",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 64,
+    "name": "editor-api",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 60,
+    "name": "suggest",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 46,
+    "name": "integration",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 43,
+    "name": "accessibility",
+    "description": "null",
+    "color": "d93f0b"
+  },
+  {
+    "count": 35,
+    "name": "editor-core",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 34,
+    "name": "documentation",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 33,
+    "name": "duplicate",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 30,
+    "name": "webpack-plugin",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 28,
+    "name": "json",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 23,
+    "name": "diff-editor",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 23,
+    "name": "important",
+    "description": "",
+    "color": "e11d21"
+  },
+  {
+    "count": 21,
+    "name": "dependencies",
+    "description": "Pull requests that update a dependency file",
+    "color": "0366d6"
+  },
+  {
+    "count": 18,
+    "name": "upstream",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 16,
+    "name": "html",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 16,
+    "name": "help wanted",
+    "description": "null",
+    "color": "fef2c0"
+  },
+  {
+    "count": 16,
+    "name": "typescript-multifile",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 15,
+    "name": "invalid",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 13,
+    "name": "as-designed",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 12,
+    "name": "wont-fix",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 12,
+    "name": "css",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 11,
+    "name": "quick-pick",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 11,
+    "name": "chrome-android",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 11,
+    "name": "regression",
+    "description": "",
+    "color": "8D6673"
+  },
+  {
+    "count": 11,
+    "name": "integration-angular",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "contextmenu",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 10,
+    "name": "editor-hover",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 9,
+    "name": "safari-ios",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 9,
+    "name": "editor-shadow-dom",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 9,
+    "name": "firefox",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 8,
+    "name": "safari",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 8,
+    "name": "out-of-scope",
+    "description": "",
+    "color": "E2A1C2"
+  },
+  {
+    "count": 7,
+    "name": "verified",
+    "description": "null",
+    "color": "0e8a16"
+  },
+  {
+    "count": 7,
+    "name": "chrome",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 7,
+    "name": "edge",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 7,
+    "name": "editor-input",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 6,
+    "name": "themes",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 6,
+    "name": "website",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 6,
+    "name": "editor-input-IME",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 6,
+    "name": "mac",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 5,
+    "name": "accessibility-narrator",
+    "description": "",
+    "color": "d93f0b"
+  },
+  {
+    "count": 5,
+    "name": "folding",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 5,
+    "name": "ESM",
+    "description": "ECMAScript modules",
+    "color": "006b75"
+  },
+  {
+    "count": 4,
+    "name": "linux",
+    "description": "",
+    "color": "006b75"
+  },
+  {
+    "count": 4,
+    "name": "editor-parameter-hints",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "i18n",
+    "description": "null",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "editor-find",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "editor-clipboard",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 3,
+    "name": "integration-react",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 2,
+    "name": "good first issue",
+    "description": "",
+    "color": "fef2c0"
+  },
+  {
+    "count": 2,
+    "name": "under-discussion",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 2,
+    "name": "windows",
+    "description": "null",
+    "color": "006b75"
+  },
+  {
+    "count": 2,
+    "name": "debt",
+    "description": "",
+    "color": "dcdcdc"
+  },
+  {
+    "count": 1,
+    "name": "semantic-tokens",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "verification-needed",
+    "description": "",
+    "color": "D4C5F9"
+  },
+  {
+    "count": 1,
+    "name": "editor-minimap",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "keyboard-layout",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "inline-completions",
+    "description": "",
+    "color": "c5def5"
+  },
+  {
+    "count": 1,
+    "name": "tokenization",
+    "description": "",
+    "color": "c5def5"
+  }
+]

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.CourseMapper">
+    <insert id="insertCourse">
+        insert into course (course_id, course_title, course_description, course_cover, course_price, course_score, teacher_id, course_status, course_field, course_tag, course_bought, course_comment_num)
+        values (null, #{course_title}, #{course_description}, #{course_cover}, #{course_price}, #{course_score}, #{teacher_id}, #{course_status}, #{course_field}, #{course_tag}, #{course_bought}, #{course_comment_num})
+    </insert>
+
+    <update id="updateCourse">
+        update course set course_title = #{course_title}, course_description = #{course_description}, course_price = #{course_price}, course_status = #{course_status}
+        where course_id = #{course_id};
+    </update>
+
+    <update id="updateCourseStatus">
+        update course set course_status = #{status} where course_id = #{course_id};
+    </update>
+
+    <update id="updateCourseScore">
+        update course set course_score = #{course_score} where course_id = #{course_id};
+    </update>
+
+    <update id="updateCourseOg">
+        update course set course_title = #{course_title}, course_description = #{course_description},
+                          course_cover = #{course_cover}, course_price = #{course_price}
+        where course_id = #{course_id};
+    </update>
+
+    <update id="updateCourseBought">
+        update course set course_bought = (course_bought + 1) where course_id = #{course_id};
+    </update>
+
+    <update id="updateLessonViewcount">
+        update lesson set lesson_viewcounts = (lesson_viewcounts + 1) where lesson_id = #{lesson_id};
+    </update>
+
+    <update id="updateCourseCommentNum">
+        update course set course_comment_num = (course_comment_num + 1) where course_id = #{course_id};
+    </update>
+
+    <delete id="deleteCourse">
+        delete from course where teacher_id = #{teacher_id} and course_title = #{course_title};
+    </delete>
+
+
+    <select id="selectCourses" resultType="edu.sustech.ooad.entity.Course">
+        select * from course;
+    </select>
+
+    <select id="selectUncheckedCourses" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_status = 'checking';
+    </select>
+
+    <select id="selectCourseByCourseId" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_id = #{course_id};
+    </select>
+
+    <select id="selectCoursesByTeacherId" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where teacher_id = #{teacher_id};
+    </select>
+
+    <select id="selectCoursesByTeacherIdOrder" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_status = 'success' and teacher_id = #{teacher_id} order by #{order};
+    </select>
+
+    <select id="selectCourseByTeacherIdAndCourseName" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_title = #{course_name} and teacher_id = #{teacher_id};
+    </select>
+
+
+    <select id="selectCoursesS" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_status = 'success';
+    </select>
+
+    <select id="selectCoursesByTeacherIdS" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where teacher_id = #{teacher_id} and course_status = 'success';
+    </select>
+
+    <select id="selectCoursesByTeacherIdOrderS" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where teacher_id = #{teacher_id} and course_status = 'success' order by course_title;
+    </select>
+
+    <select id="selectCoursesInOrderS" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_status = 'success' order by #{order};
+    </select>
+
+    <select id="selectCoursesLike" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where (lower(course_title) like #{text} or lower(course_tag) like #{text} or lower(course_field) like #{text})
+        and course_status = 'success';
+    </select>
+
+    <select id="selectCoursesAlphaOrder" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_status = 'success' order by course_title;
+    </select>
+
+
+    <select id="selectCoursesBoughtOrder" resultType="edu.sustech.ooad.entity.Course">
+        select * from course where course_status = 'success' order by course_bought desc;
+    </select>
+
+
+</mapper>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.UserMapper">
+    <!--    <resultMap id="recordMapAuto" type="pers.gis.geojson_manipulator.entity.Record" autoMapping="true"/>-->
+
+    <insert id="insertUser">
+        insert into user (user_id, user_name, user_passwd, user_gold, user_email, user_role)
+        values (null, #{user_name}, #{user_passwd}, 0, #{user_email}, #{user_role});
+    </insert>
+
+    <update id="updateUserGold">
+        update user set user_gold = user_gold - #{user_gold} where user_id = #{user_id};
+    </update>
+
+    <select id="selectAllUsers" resultType="edu.sustech.ooad.entity.User">
+        select * from user;
+    </select>
+
+    <select id="selectUserByUserId" resultType="edu.sustech.ooad.entity.User">
+        select * from user where user_id = #{user_id};
+    </select>
+
+    <select id="selectUserByUserNameAndRole" resultType="edu.sustech.ooad.entity.User">
+        select * from user where user_name = #{user_name} and user_role = #{user_role};
+    </select>
+
+    <select id="selectUserGoldByUserNameAndRole" resultType="java.lang.Integer">
+        select user_gold from user where user_name = #{user_name} and user_role = #{user_role};
+    </select>
+
+    <select id="selectUserEmailByUserNameAndRole" resultType="java.lang.String">
+        select user_email from user where user_name = #{user_name} and user_role = #{user_role};
+    </select>
+
+    <select id="selectUserByUsername" resultType="edu.sustech.ooad.entity.User">
+        select * from user where user_name = #{user_name};
+    </select>
+
+    <update id="rechargeUserGold">
+        update user set user_gold = user_gold + #{user_gold} where user_id = #{user_id};
+    </update>
+
+
+</mapper>

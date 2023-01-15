@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="github_vis.Mapper.CommitMapper">
+    <resultMap id="commitMapAuto" type="github_vis.Entity.Commit" autoMapping="true"/>
+
+    <insert id="insertCommit">
+        insert into commits (repo_id, commit_sha, commit_author, created_at)
+        values (#{repo_id}, #{commit_sha}, #{commit_author}, #{created_at})
+    </insert>
+
+    <select id="selectCommitsByRepo_id" resultType="github_vis.Entity.Commit">
+        select * from commits where repo_id = #{repo_id};
+    </select>
+
+    <select id="selectCommitsByContributorAndRepo_id" resultType="github_vis.Entity.Commit">
+        select * from commits where commit_author = #{name} and repo_id = #{repo_id};
+    </select>
+
+
+</mapper>

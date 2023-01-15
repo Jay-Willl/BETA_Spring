@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.QuizMapper">
+
+    <insert id="insertQuiz">
+        insert into quiz(quiz_id, quiz_content, course_id, quiz_index, quiz_time)
+        values (null, #{quiz_content}, #{course_id}, #{quiz_index}, #{quiz_time});
+    </insert>
+
+    <update id="updateQuiz">
+        update quiz set quiz_content = #{quiz_content}
+        where course_id = #{course_id};
+    </update>
+
+
+    <select id="selectQuizByCourseId" resultType="edu.sustech.ooad.entity.Quiz">
+        select * from quiz where course_id = #{course_id};
+    </select>
+
+    <select id="selectQuizByCourseIdAndQuizIndex" resultType="edu.sustech.ooad.entity.Quiz">
+        select * from quiz where course_id = #{course_id} and quiz_index = #{quiz_index};
+    </select>
+</mapper>

@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/v1
+    username: root
+    password: *
+
+mybatis:
+  configuration:
+    # map even if select null
+    call-setters-on-nulls: true
+    map-underscore-to-camel-case: false
+    auto-mapping-behavior: full
+
+server:
+  port: 7958

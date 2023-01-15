@@ -1,0 +1,698 @@
+[
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.74.1",
+    "release_name": "November 2022 Recovery 1",
+    "created_at": "2022-12-14",
+    "published_at": null,
+    "release_body": "Update 1.74.1: This update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22November+2022+Recovery+1%22).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_74) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.74.0",
+    "release_name": "November 2022",
+    "created_at": "2022-12-07",
+    "published_at": null,
+    "release_body": "Welcome to the November 2022 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:\r\n\r\n* **[Customize Explorer auto reveal](#custom-explorer-autoreveal-logic)** - Decide which files scroll into view in the Explorer.\r\n* **[Hide Activity bar and Panel badges](#hide-badges-per-view-container)** - Simplify the editor UI by toggling state badges.\r\n* **[Audio cues for notebooks and diff view](#audio-cues-for-notebook-execution)** - Sounds for cell run results, added or removed lines.\r\n* **[Merge editor Undo/Redo](#merge-editor)** - Quickly revert or reapply merge conflict actions.\r\n* **[Manage unsafe repositories](#manage-unsafe-git-repositories)** - Prevent Git operations on folders not owned by you.\r\n* **[JavaScript console.profile collection](#javascript-debugging)** - Easily create CPU profiles for viewing in VS Code.\r\n* **[Go to Definition from return](#go-to-definition-on-return)** - Jump to the top of JavaScript/TypeScript functions.\r\n* **[Remote Tunnels](#remote-development)** - Create a connection to any machine, without needing SSH.\r\n* **[Jupyter notebook \"Just My Code\" debugging](#jupyter)** - Avoid stepping into Python library code.\r\n* **[Dev Container GPU support](#remote-development-extensions)** - Request a GPU when creating a Dev Container.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.73.1",
+    "release_name": "October 2022 Recovery",
+    "created_at": "2022-11-09",
+    "published_at": null,
+    "release_body": "**Update 1.73.1**: The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22October+2022+Recovery+1%22+is%3Aclosed).\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.73.0",
+    "release_name": "October 2022",
+    "created_at": "2022-11-02",
+    "published_at": null,
+    "release_body": "Welcome to the October 2022 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:\r\n\r\n* **[Search include/exclude folders](#include-and-exclude-folders-from-search)** - Quickly set folders to include/exclude in the tree view.\r\n* **[Command Center mode shortcuts](#command-center-mode-shortcuts)** - Displays commonly used modes before recent files list.\r\n* **[Merge editor improvements](#merge-editor)** - Access Combination option to auto merge conflicts.\r\n* **[Markdown automatic link updates](#languages)** - File and image links updated on rename/move.\r\n* **[More audio cues](#new-audio-cues)** - Task completed or failed, Terminal Quick Fix available.\r\n* **[vscode.dev protected branch workflow](#improved-branch-creation-and-protection-workflows)** - Create new branch when committing to protected branch.\r\n* **[New Python extensions](#python)** - New standalone extensions for isort, Pylint, and Flake8.\r\n* **[Dev Container Templates](#remote-development)** - Create new Dev Containers based on existing templates.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.72.2",
+    "release_name": "September 2022 Recovery 2",
+    "created_at": "2022-10-12",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2022+Recovery+2%22+is%3Aclosed)\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_72) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.72.1",
+    "release_name": "September 2022 Recovery",
+    "created_at": "2022-10-10",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2022+Recovery+1%22+is%3Aclosed), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_71) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.72.0",
+    "release_name": "September 2022",
+    "created_at": "2022-10-04",
+    "published_at": null,
+    "release_body": "Welcome to the September 2022 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:\r\n\r\n* **[Tool bar customization](https://code.visualstudio.com/updates/v1_72#_hide-actions-from-tool-bars)** - Hide/show tool bar actions.\r\n* **[Better editor autoscrolling](https://code.visualstudio.com/updates/v1_72#_improved-autoscroll-behavior)** - Scrolling speed tuned to cursor location.\r\n* **[Extensions view updates](https://code.visualstudio.com/updates/v1_72#_extensions)** - Highlights extensions with updates or needing attention.\r\n* **[Search results in a tree view](https://code.visualstudio.com/updates/v1_72#_search)** - Review search results in either list or tree view.\r\n* **[Nested Git repo support](https://code.visualstudio.com/updates/v1_72#_source-control)** - Detects and displays nested Git submodules.\r\n* **[Terminal Quick Fixes](https://code.visualstudio.com/updates/v1_72#_terminal-quick-fixes)** - Suggestions to correct command typos and set an upstream remote.\r\n* **[Pin frequently used tasks](https://code.visualstudio.com/updates/v1_72#_tasks)** - Pin tasks to the top of the Run Task dropdown for quick access.\r\n* **[Markdown link validation](https://code.visualstudio.com/updates/v1_72#_markdown-link-validation)** - Automatically check header, file, and image links.\r\n* **[GitHub Enterprise Server authentication](https://code.visualstudio.com/updates/v1_72#_github-enterprise-server-authentication-support)** - Improved login workflow no longer requires PAT.\r\n* **[Dev Containers Features](https://code.visualstudio.com/updates/v1_72#_dev-container-features)** - Easily add and share functionality for development containers.\r\n* **[VS Code Community Discussions](https://code.visualstudio.com/updates/v1_72#_vs-code-community-discussions)** - Connect with other VS Code extension authors.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.71.2",
+    "release_name": "August 2022 Recovery 2",
+    "created_at": "2022-09-14",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22August+2022+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_71) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.71.1",
+    "release_name": "August 2022 Recovery 1",
+    "created_at": "2022-09-13",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22August+2022+Recovery+1%22), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_71) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.71.0",
+    "release_name": "August 2022 (version 1.71.0)",
+    "created_at": "2022-09-01",
+    "published_at": null,
+    "release_body": "Welcome to the August 2022 release of Visual Studio Code. August is when many of the engineers on VS Code take their vacations, but there are still many updates in this version that we hope you'll like:\r\n\r\n* **[Merge editor improvements](https://code.visualstudio.com/updates/v1_71#merge-editor-improvements)** - Easier transition between text and merge editors.\r\n* **[Expanded codecs support](https://code.visualstudio.com/updates/v1_71#ffmpeg-codecs-support)** - To help display embedded audio and video in notebooks and webviews.\r\n* **[File rename selection](https://code.visualstudio.com/updates/v1_71#explorer-rename-selection-improvements)** - Pressing F2 selects filename, whole name, or file extension.\r\n* **[New Code Action UI](https://code.visualstudio.com/updates/v1_71#new-code-action-control)** - Quickly find the Code Action you're looking for.\r\n* **[Terminal updates](https://code.visualstudio.com/updates/v1_71#terminal)** - Shell integration for fish and Git Bash, new smooth scrolling.\r\n* **[Jupyter notebook image pasting](https://code.visualstudio.com/updates/v1_71#jupyter)** - Paste and preview image files in notebook Markdown cells.\r\n* **[TypeScript livestreams](https://code.visualstudio.com/updates/v1_71#typescript-livestreams)** - Watch TS \"Crash Course\" or \"Tips and Tricks\" on YouTube.\r\n* **[Live Preview extension](https://code.visualstudio.com/updates/v1_71#live-preview)** - Live Preview now supports multi-root web projects.\r\n* **[Markdown Language Server blog post](https://code.visualstudio.com/updates/v1_71#markdown-language-server)** - Learn how Markdown support moved to a Language Server.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.70.2",
+    "release_name": "July 2022 Recovery 2",
+    "created_at": "2022-08-15",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22July+2022+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_70) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.70.1",
+    "release_name": "July 2022 Recovery 1",
+    "created_at": "2022-08-09",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22July+2022+Recovery%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_70) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.70.0",
+    "release_name": "July 2022 (version 1.70)",
+    "created_at": "2022-08-03",
+    "published_at": null,
+    "release_body": "Welcome to the July 2022 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:\r\n\r\n* **[Title bar customization](https://code.visualstudio.com/updates/v1_70#_easier-title-bar-customization)** - Hide/show menu bar, Command Center, or layout control.\r\n* **[Fold selection](https://code.visualstudio.com/updates/v1_70#_fold-selection)** - Create your own folded regions in the editor.\r\n* **[Search multi-select](https://code.visualstudio.com/updates/v1_70#_search-multiple-selection)** - Select and then act on multiple search results.\r\n* **[Tree view search and filtering](https://code.visualstudio.com/updates/v1_70#_tree-find-control)** - Find and filter in tree views such as the Find Explorer.\r\n* **[Terminal improvements](https://code.visualstudio.com/updates/v1_70#_terminal)** - Shell integration on by default, extended PowerShell keybindings.\r\n* **[Command line option --merge](https://code.visualstudio.com/updates/v1_70#_command-line-option-merge)** - Use the 3-way merge editor as your default merge tool.\r\n* **[Notebooks: Go to Most Recently Failed Cell](https://code.visualstudio.com/updates/v1_70#_go-to-most-recently-failed-cell)** - Jump directly to notebook errors.\r\n* **[Python Get started experience](https://code.visualstudio.com/updates/v1_70#_python)** - Quickly install and configure Python within VS Code.\r\n* **[Sticky scroll preview](https://code.visualstudio.com/updates/v1_70#_editor-sticky-scroll)** - New scrolling UI shows current source code scope.\r\n* **[Dev container CLI topic](https://code.visualstudio.com/updates/v1_70#_development-container-cli)** - Learn about the updated development container CLI.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.69.2",
+    "release_name": "June 2022 Recovery 2",
+    "created_at": "2022-07-18",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22June+2022+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_69) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.69.1",
+    "release_name": "June 2022 Recovery 1",
+    "created_at": "2022-07-12",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22June+2022+Recovery+1%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_69) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.69.0",
+    "release_name": "June 2022 (version 1.69)",
+    "created_at": "2022-07-05",
+    "published_at": null,
+    "release_body": "Welcome to the June 2022 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:\r\n\r\n* **[3-way merge editor](https://code.visualstudio.com/updates/v1_69#_3-way-merge-editor)** - Resolve merge conflicts within VS Code.\r\n* **[Command Center](https://code.visualstudio.com/updates/v1_69#_command-center)** - New UI to search files, run commands, and navigate cursor history.\r\n* **[Do Not Disturb mode](https://code.visualstudio.com/updates/v1_69#_do-not-disturb-mode)** - Silence non-critical notification popups.\r\n* **[Toggle Light/Dark themes](https://code.visualstudio.com/updates/v1_69#_toggle-between-light-and-dark-themes)** - Quickly switch between preferred light and dark themes.\r\n* **[Terminal shell integration](https://code.visualstudio.com/updates/v1_69#_shell-integration)** - Display command status, run recent commands, and more.\r\n* **[Task output decorations](https://code.visualstudio.com/updates/v1_69#_decorations)** - Highlights task success or failure exit codes.\r\n* **[Git Commit action button](https://code.visualstudio.com/updates/v1_69#_commit-action-button-for-git-repositories)** - Configure your default Git Commit action.\r\n* **[Debug Step Into Target support](https://code.visualstudio.com/updates/v1_69#_improved-step-into-target-ui)** - Allows you to step directly into functions when paused.\r\n* **[JavaScript sourcemap toggling](https://code.visualstudio.com/updates/v1_69#_javascript-debugging)** - Switch to debugging compiled rather than source code.\r\n* **[Color theme tester](https://code.visualstudio.com/updates/v1_69#_theme-tester-supports-built-in-themes)** - Use vscode.dev to preview color themes.\r\n\r\n> If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com/).\r\n\r\n[**Insiders**](https://code.visualstudio.com/insiders): Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.68.1",
+    "release_name": "May 2022 Recovery 1",
+    "created_at": "2022-06-14",
+    "published_at": null,
+    "release_body": "\r\nThe update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22May+2022+Recovery+1%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_67) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.68.0",
+    "release_name": "May 2022 (version 1.68)",
+    "created_at": "2022-06-08",
+    "published_at": null,
+    "release_body": "Welcome to the May 2022 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:\r\n\r\n- [Configure Display Language](https://code.visualstudio.com/updates/v1_68#_configure-display-language-improvements) - See installed and available Language Packs in their language.\r\n- [Problems panel table view](https://code.visualstudio.com/updates/v1_68#_problems-panel-table-view) - View errors and warnings as a table to quickly filter on their source.\r\n- [Deprecated extensions](https://code.visualstudio.com/updates/v1_68#_deprecated-extensions) - Learn whether an extension is deprecated or should be replaced.\r\n- [Extension sponsorship](https://code.visualstudio.com/updates/v1_68#_sponsoring-extensions) - Support the developers who build your favorite extensions.\r\n- [Hide Explorer files using .gitignore](https://code.visualstudio.com/updates/v1_68#_hide-files-in-explorer-based-on-gitignore) - Reuse your existing .gitignore to hide files in the Explorer.\r\n- [Terminal color and contrast enhancements](https://code.visualstudio.com/updates/v1_68#_terminal) - Find match background color, min contrast ratio.\r\n- [Git branch protection](https://code.visualstudio.com/updates/v1_68#_git-branch-protection) - Branch protection available right inside VS Code.\r\n- [TypeScript Go to Source Definition](https://code.visualstudio.com/updates/v1_68#_go-to-source-definition) - Jump directly to a symbol's JavaScript implementation.\r\n- [VS Code for the Web localization](https://code.visualstudio.com/updates/v1_68#_core-localization-support) - vscode.dev now matches your chosen browser language.\r\n- [Development Container specification](https://code.visualstudio.com/updates/v1_68#_development-container-specification) - Learn more about the evolving dev container spec.\r\n- [Preview: Markdown link validation](https://code.visualstudio.com/updates/v1_68#_markdown-link-validation) - Detects broken links to headers, images, and files.\r\n\r\n> If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com/).\r\n\r\n[**Insiders**](https://code.visualstudio.com/insiders): Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.67.2",
+    "release_name": "April 2022 Recovery 2",
+    "created_at": "2022-05-16",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22April+2022+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_67) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.67.1",
+    "release_name": "April 2022 Recovery 1",
+    "created_at": "2022-05-06",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22April+2022+Recovery+1%22+is%3Aclosed), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_67) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.67.0",
+    "release_name": "April 2022 (version 1.67)",
+    "created_at": "2022-05-04",
+    "published_at": null,
+    "release_body": "Welcome to the April 2022 release of Visual Studio Code. There are many updates in this version that we hope you'll like, some of the key highlights include:\r\n\r\n\r\n- [Explorer file nesting](https://code.visualstudio.com/updates/v1_67#_explorer-file-nesting) - Nest generated files under source files in the Explorer.\r\n- [Settings editor filters](https://code.visualstudio.com/updates/v1_67#_settings-editor-search-filter-button) - Filter button brings up searches such as `@Modified` settings\r\n- [Bracket pair colorization](https://code.visualstudio.com/updates/v1_67#_bracket-pair-colorization-enabled-by-default) - Colored bracket pairs are now enabled by default.\r\n- [Toggle inlay hints](https://code.visualstudio.com/updates/v1_67#_toggle-inlay-hints) - Ctrl+Alt to quickly hide or show inlay hints in the editor.\r\n- [Drag and drop to create Markdown links](https://code.visualstudio.com/updates/v1_67#_languages) - Drop files into the editor to create Markdown links.\r\n- [Find All References in Markdown](https://code.visualstudio.com/updates/v1_67#_markdown-find-all-references-to-headers) - Quickly find all references to headers, files, URLs.\r\n- [Java extension updates](https://code.visualstudio.com/updates/v1_67#_java) - Now supporting inlay hints and lazy variable resolution.\r\n- [UX Guidelines for extension authors](https://code.visualstudio.com/updates/v1_67#_ux-guidelines) - Guidance for VS Code extension UI best practices.\r\n- [New Rust language topic](https://code.visualstudio.com/updates/v1_67#_rust-in-vs-code) - Learn how to use the Rust programming language in VS Code.\r\n\r\n> If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com/).\r\n\r\nWatch the release party: Listen in as the VS Code team discusses some of the new features. You can find the [recording of the event](https://www.youtube.com/watch?v=dpfy1V7C4Ho) on our YouTube channel.\r\n\r\n[**Insiders**](https://code.visualstudio.com/insiders): Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.66.2",
+    "release_name": "March 2022 Recovery 2",
+    "created_at": "2022-04-11",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22March+2022+Recovery+2%22+is%3Aclosed), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_66) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.66.1",
+    "release_name": "March 2022 Recovery",
+    "created_at": "2022-04-07",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22March+2022+Recovery%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_66) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.66.0",
+    "release_name": "March 2022 (version 1.66)",
+    "created_at": "2022-03-29",
+    "published_at": null,
+    "release_body": "Welcome to the March 2022 release of Visual Studio Code. There are many updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n- [**Local history**](https://code.visualstudio.com/updates/v1_66#_local-history) - Keep track of local file changes independent of source control.\r\n- [**Settings editor language filter**](https://code.visualstudio.com/updates/v1_66#_settings-editor) - Displays available language-specific settings.\r\n- [**Terminal find improvements**](https://code.visualstudio.com/updates/v1_66#_terminal) - Matches are highlighted in the terminal panel and scroll bar.\r\n- [**Built-in CSS/LESS/SCSS formatters**](https://code.visualstudio.com/updates/v1_66#_css-formatter) - Code formatting for CSS, LESS, and SCSS.\r\n- [**JavaScript heap profiles**](https://code.visualstudio.com/updates/v1_66#_javascript-debugging) - Collect and view JS memory allocations while debugging.\r\n- [**VS Code for the Web**](https://code.visualstudio.com/updates/v1_66#_vs-code-for-the-web) - Drag and drop files and folders into vscode.dev.\r\n- [**Remote - SSH support for Mac**](https://code.visualstudio.com/updates/v1_66#_remote-development) - Connect via SSH to Apple Silicon/M1/ARM64 machines.\r\n- [**New R language topic**](https://code.visualstudio.com/updates/v1_66#_r-in-vs-code) - Learn how to use R for data science in VS Code.\r\n\r\n> If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com/).\r\n\r\n[**Insiders**](https://code.visualstudio.com/insiders): Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.65.2",
+    "release_name": "February 2022 Recovery 2",
+    "created_at": "2022-03-10",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22February+2022+Recovery+2%22+is%3Aclosed+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_65) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.65.1",
+    "release_name": "February 2022 Recovery 1",
+    "created_at": "2022-03-08",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22February+2022+Recovery+1%22+is%3Aclosed+), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_65) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.65.0",
+    "release_name": "February 2022 (version 1.65)",
+    "created_at": "2022-03-02",
+    "published_at": null,
+    "release_body": "Welcome to the February 2022 release of Visual Studio Code.\r\n\r\n- **[New editor history navigation](https://code.visualstudio.com/updates/v1_65#_new-editor-history-navigation)** - Scope Go Back/Go Forward history to editor group or single editor.\r\n- **[Light High Contrast theme](https://code.visualstudio.com/updates/v1_65#_light-high-contrast-theme)** - Light theme for enhanced VS Code editor visibility.\r\n- **[New audio cues](https://code.visualstudio.com/updates/v1_65#_audio-cues)** - Audio cues for warnings, inline suggestions, and breakpoint hits.\r\n- **[Drag and drop Problems and Search results](https://code.visualstudio.com/updates/v1_65#_drag-and-drop-problems-and-search-results)** - Drag results to new or existing editor groups.\r\n- **[Source Control diff editor management](https://code.visualstudio.com/updates/v1_65#_diff-editor-management)** - Automatically close diff editors after Git operations.\r\n- **[Debugger lazy variable evaluation](https://code.visualstudio.com/updates/v1_65#_lazy-variables)** - Lazy evaluation of JavaScript/TypeScript property getters.\r\n- **[Preview: Terminal shell integration](https://code.visualstudio.com/updates/v1_65#_terminal-shell-integration)** - Rerun terminal commands, command status decorations.\r\n- **[VS Code for the Web](https://code.visualstudio.com/updates/v1_65#_vs-code-for-the-web)** - Reopen recent local files and folders, improved Git integration.\r\n\r\n> If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com/).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.64.2",
+    "release_name": "January 2022 Recovery 2",
+    "created_at": "2022-02-09",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22January+2022+Recovery+2%22+is%3Aclosed+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_64) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.64.1",
+    "release_name": "January 2022 Recovery",
+    "created_at": "2022-02-07",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22January+2022+Recovery+1%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_64) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.64.0",
+    "release_name": "January 2022",
+    "created_at": "2022-02-02",
+    "published_at": null,
+    "release_body": "# January 2022 (version 1.64)\r\n\r\n<!-- DOWNLOAD_LINKS_PLACEHOLDER -->\r\n\r\nWelcome to the January 2022 release of Visual Studio Code. There are many updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[New Side Panel](https://code.visualstudio.com/updates/v1_64/#new-side-panel)** - Display more views at once with the new Side Panel.\r\n* **[Settings editor search](https://code.visualstudio.com/updates/v1_64/#settings-editor)** - Search now prioritizes whole word matches.\r\n* **[Audio cues](https://code.visualstudio.com/updates/v1_64/#audio-cues)** - Hear when the cursor moves to folded regions, errors, and breakpoints.\r\n* **[Unicode highlighting](https://code.visualstudio.com/updates/v1_64/#unicode-highlighting-improvements)** - Avoid highlighting characters in supported languages.\r\n* **[Automatic terminal replies](https://code.visualstudio.com/updates/v1_64/#automatic-replies)** - Create automatic responses to common terminal prompts.\r\n* **[Notebook UI improvements](https://code.visualstudio.com/updates/v1_64/#notebooks)** - Search text in Markdown and output cells.\r\n* **[Debug binary data view](https://code.visualstudio.com/updates/v1_64/#viewing-and-editing-binary-data)** - View and edit binary data while debugging.\r\n* **[Markdown path suggestions](https://code.visualstudio.com/updates/v1_64/#markdown-path-intellisense)** - Quickly insert relative file paths and header links.\r\n* **[JS/TS surround with snippets](https://code.visualstudio.com/updates/v1_64/#surround-with-snippets-for-jsts)** - Insert selected code inside snippets.\r\n* **[VS Code for the Web](https://code.visualstudio.com/updates/v1_64/#remote-repositories)** - Support for signed GitHub commits in vscode.dev and github.dev.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Watch a highlight** of the new features in this version at the VS Code team's release party. You can find the [recording of the event](https://www.youtube.com/watch?v=g2UC0FmbYSY) on our YouTube channel.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.63.2",
+    "release_name": "November 2021 Recovery 2",
+    "created_at": "2021-12-15",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22November+2021+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_63) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.63.1",
+    "release_name": "November 2021 Recovery",
+    "created_at": "2021-12-14",
+    "published_at": null,
+    "release_body": "The update addresses these security [issues](https://github.com/microsoft/vscode/milestone/174?closed=1).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_63) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.63.0",
+    "release_name": "November 2021",
+    "created_at": "2021-12-08",
+    "published_at": null,
+    "release_body": "# November 2021 (version 1.63)\r\n\r\n<!-- DOWNLOAD_LINKS_PLACEHOLDER -->\r\n\r\nWelcome to the November 2021 release of Visual Studio Code. There are many updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Marketplace theme preview](#preview-themes-before-installing)** - Try out Color Themes without installing them.\r\n* **[Configure Problems navigation order](#configure-problem-navigation-order)** - Go to next error or warning by severity or file position.\r\n* **[Show commands in screencast mode](#screencast-mode-shows-command-names)** - Display command names along with keyboard shortcuts.\r\n* **[Notebook improvements](#notebooks)** - Adjust Markdown font size, better file and URL linking support.\r\n* **[Invisible Unicode highlighting](#unicode-highlighting)** - Highlights invisible or confusable Unicode characters.\r\n* **[TypeScript method completions](#method-signature-completions)** - Quickly fill in interface and override methods.\r\n* **[Pre-release extensions](#pre-release-extensions)** - Try out extension new features and fixes early.\r\n* **[New Java welcome experience](#java)** - To help you configure and learn about Java in VS Code.\r\n* **[More extensions for vscode.dev](#web-extensions)** - Check out recent additions for VS Code for the Web.\r\n* **[Work in a container on an SSH server](#remote-development)** - New Remote - SSH **Reopen in Container** command.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/livestream) on Thursday, December 9 at 8am Pacific (4pm London) to see a demo of what's new in this release, and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.62.3",
+    "release_name": "October 2021 Recovery 3",
+    "created_at": "2021-11-18",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22October+2021+Recovery+3%22).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_62) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.62.2",
+    "release_name": "October 2021 Recovery 2",
+    "created_at": "2021-11-12",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22October+2021+Recovery+2%22), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_62) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.62.1",
+    "release_name": "October 2021 Recovery",
+    "created_at": "2021-11-05",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22October+2021+Recovery%22), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_62) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.62.0",
+    "release_name": "October 2021",
+    "created_at": "2021-11-04",
+    "published_at": null,
+    "release_body": "Welcome to the October 2021 release of Visual Studio Code. In addition to releasing a preview of [vscode.dev](https://vscode.dev/), we announced in the [October iteration plan](https://github.com/microsoft/vscode/issues/134730) that we would focus on housekeeping GitHub issues and pull requests (see our [issue cleanup guide](https://github.com/microsoft/vscode/wiki/Issue-Grooming)). Across all of our VS Code repositories, we closed (either triaged or fixed) **4163** issues. While we closed issues, you created **2222** new issues. The main [vscode repository](https://github.com/microsoft/vscode/issues) now has **2491** open feature requests and **1246** open bugs. In addition, we closed **194** pull requests.\r\n\r\nAs in previous years, we used the [live tracker](https://vscode-issue-tracker.netlify.com/) from [Benjamin Lannon](https://github.com/lannonbr) to track our progress:\r\n\r\n![Burn down chart of VS Code issues](https://github.com/microsoft/vscode-docs/raw/main/release-notes/images/1_62/october-issue-cleanup.png)\r\n\r\nGiven the focus on shipping `vscode.dev`, not everybody on the team had cycles for clean-up, so some issue clean-up will continue in November. After housekeeping, we also addressed feature requests and community [pull requests](#pull-requests).\r\n\r\n**Watch a highlight** of the new features in this version in the VS Code team's release party. You can find the [recording of the event](https://www.youtube.com/watch?v=IKvtYHfzE3g) on our YouTube channel."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.61.2",
+    "release_name": "September 2021 Recovery 2",
+    "created_at": "2021-10-19",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/issues?q=is%3Aissue+label%3Acandidate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-remote-release+milestone%3A%22September+2021+Recovery+2%22+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_61) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.61.1",
+    "release_name": "September 2021 Recovery",
+    "created_at": "2021-10-14",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2021+Recovery%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_61) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.61.0",
+    "release_name": "September 2021",
+    "created_at": "2021-10-07",
+    "published_at": null,
+    "release_body": "Welcome to the September 2021 release of Visual Studio Code. There are many updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Split editors within the same group](https://code.visualstudio.com/updates/v1_61#_split-an-editor-without-creating-a-new-group)** - Quickly create side-by-side editors for the same file.\r\n* **[Locked editor groups](https://code.visualstudio.com/updates/v1_61#_locked-editor-groups)** - Select editor types to automatically lock in an editor group.\r\n* **[Better display of deleted and readonly files](https://code.visualstudio.com/updates/v1_61#_indicate-deleted-and-readonly-editors-via-decorations)** - Tab decorations highlight deleted and readonly files.\r\n* **[Bracket pair guides](https://code.visualstudio.com/updates/v1_61#_bracket-pair-guides)** - Display vertical guides to link matching bracket pairs.\r\n* **[Fixed terminal dimensions](https://code.visualstudio.com/updates/v1_61#_fixed-dimensions)** - Set an active terminal's width and height.\r\n* **[Jupyter Notebook improvements](https://code.visualstudio.com/updates/v1_61#_jupyter)** - Table of Contents view, full debugging support.\r\n* **[Platform-specific extensions](https://code.visualstudio.com/updates/v1_61#_platform-specific-extensions)** - Publish different extension versions for Windows, macOS, and Linux.\r\n* **[Virtual Workspaces extension guide](https://code.visualstudio.com/updates/v1_61#_virtual-workspaces-extension-guide)** - Learn how to update your extension for virtual environments.\r\n* **[Advanced container configuration](https://code.visualstudio.com/updates/v1_61#_advanced-container-configuration)** - Tips, code samples, and videos to help configure development containers.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/livestream) on Thursday, October 7 at 8am Pacific (4pm London) to see a demo of what's new in this release, and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.60.2",
+    "release_name": "August 2021 Recovery 2",
+    "created_at": "2021-09-22",
+    "published_at": null,
+    "release_body": "August 2021 Recovery 2"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.60.1",
+    "release_name": "August 2021 Recovery",
+    "created_at": "2021-09-10",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/issues?q=is%3Aissue+label%3Acandidate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-remote-release+milestone%3A%22August+2021+Recovery%22+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_60) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.60.0",
+    "release_name": "August 2021",
+    "created_at": "2021-09-01",
+    "published_at": null,
+    "release_body": "Welcome to the August 2021 release of Visual Studio Code. There are many updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Automatic language detection](https://code.visualstudio.com/updates/v1_60#_automatic-language-detection)** - Programming language detected when you paste into VS Code.\r\n* **[Built-in fast bracket colorization](https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization)** - Fast bracket matching and colorization for large files.\r\n* **[Settings editor syntax highlighting](https://code.visualstudio.com/updates/v1_60#_syntax-highlighting-of-codeblocks-in-the-settings-editor)** - Rich syntax highlighting for setting description code blocks.\r\n* **[Custom terminal glyph rendering](https://code.visualstudio.com/updates/v1_60#_terminal)** - Better display of box drawing and block element characters.\r\n* **[Set debugging Watch values](https://code.visualstudio.com/updates/v1_60#_set-value-in-watch-view)** - Change watched values during a debugging session.\r\n* **[Notebook improvements](https://code.visualstudio.com/updates/v1_60#_notebooks)** - Markdown link navigation, faster rendering of large outputs.\r\n* **[JavaScript/TypeScript inlay hints](https://code.visualstudio.com/updates/v1_60#_inlay-hints-for-javascript-and-typescript)** - Inline hints for parameter names and types, and more.\r\n* **[Locked editor group preview](https://code.visualstudio.com/updates/v1_60#_locked-editor-groups)** - Keep a preferred editor layout by locking the editor group.\r\n* **[Python extension testing updates](https://code.visualstudio.com/updates/v1_60#_python)** - Better support for test discovery, navigation, and status.\r\n* **[Web extension authors guide](https://code.visualstudio.com/updates/v1_60#_web-extensions)** - Learn how to update your extension for VS Code in the browser.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/livestream) on Thursday, September 2 at 8am Pacific (4pm London) to see a demo of what's new in this release, and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.59.1",
+    "release_name": "July 2021 Recovery",
+    "created_at": "2021-08-18",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/issues?q=is%3Aissue+label%3Acandidate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-remote-release+milestone%3A%22July+2021+Recovery%22+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_59) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.59.0",
+    "release_name": "July 2021",
+    "created_at": "2021-08-04",
+    "published_at": null,
+    "release_body": "Welcome to the July 2021 release of Visual Studio Code. There are many updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Extensions view improvements](https://code.visualstudio.com/updates/v1_59#_extensions)** - Rich extension detail hovers, new runtime status tab.\r\n* **[Settings editor validation](https://code.visualstudio.com/updates/v1_59#_settings-editor)** - Quickly find editing errors for object-based settings.\r\n* **[Drag and drop terminals](https://code.visualstudio.com/updates/v1_59#_drag-and-drop-terminals-across-windows)** - Move terminals across windows to both editor and panel areas.\r\n* **[Extended theme customization](https://code.visualstudio.com/updates/v1_59#_extended-theme-customization-syntax)** - Customize multiple color themes at once.\r\n* **[Built-in support for Jupyter notebooks](https://code.visualstudio.com/updates/v1_59#_support-for-jupyter-notebooks)** - Open `.ipynb` files directly in VS Code.\r\n* **[Notebook UI improvements](https://code.visualstudio.com/updates/v1_59#_notebook-layout-improvements)** - Display first line of collapsed cells, Undo/Redo per cell.\r\n* **[Testing API finalized](https://code.visualstudio.com/updates/v1_59#_testing-apis)** - Native support for running tests in VS Code with built-in Test Explorer.\r\n* **[Debug Disassembly view preview](https://code.visualstudio.com/updates/v1_59#_disassembly-view)** - Display disassembled C++ code in VS Code.\r\n* **[Live Preview extension](https://code.visualstudio.com/updates/v1_59#_live-preview)** - Live HTML preview within VS Code with JavaScript debugging support.\r\n* **[Remote - Containers devcontainer CLI](https://code.visualstudio.com/updates/v1_59#_remote-containers-devcontainer-cli)** - Command line interface for working with development containers.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.58.2",
+    "release_name": "June 2021 Recovery 2",
+    "created_at": "2021-07-14",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Acandidate+repo%3Amicrosoft%2Fvscode+repo%3Amicrosoft%2Fvscode-internalbacklog+repo%3Amicrosoft%2Fvscode-remote-release+milestone%3A%22June+2021+Recovery+2%22).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_56) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.58.1",
+    "release_name": "June 2021 Recovery",
+    "created_at": "2021-07-13",
+    "published_at": null,
+    "release_body": "The update addresses these security [issues](https://github.com/microsoft/vscode/milestone/160?closed=1).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_58) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.58.0",
+    "release_name": "June 2021",
+    "created_at": "2021-07-07",
+    "published_at": null,
+    "release_body": "Welcome to the June 2021 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Terminals in the editor](https://code.visualstudio.com/updates/v1_58#_terminals-in-the-editor-area)** - Create or move terminals into the editor area.\r\n* **[Workspace Trust](https://code.visualstudio.com/updates/v1_58#_workspace-trust)** - Quickly customize Workspace Trust settings, disable Restricted Mode banner.\r\n* **[Editor scroll bar customization](https://code.visualstudio.com/updates/v1_58#_editor-scroll-bar-customization)** - Set bar visibility and width, click navigation behavior.\r\n* **[Markdown preview KaTeX support](https://code.visualstudio.com/updates/v1_58#_math-formula-rendering-in-the-markdown-preview)** - Math support in the Markdown preview.\r\n* **[Settings editor improvements](https://code.visualstudio.com/updates/v1_58#_settings-editor)** - Support for multiple checkboxes and enumeration dropdowns.\r\n* **[Sticky debug environment choice](https://code.visualstudio.com/updates/v1_58#_remember-chosen-environment-per-file)** - Debugger remembers your previous environment choice.\r\n* **[Jupyter Interactive window](https://code.visualstudio.com/updates/v1_58#_jupyter-interactive-window)** - Run Jupyter code directly in an interactive window.\r\n* **[Jupyter notebook debugging](https://code.visualstudio.com/updates/v1_58#_jupyter-notebook-debugging)** - Debug Jupyter notebook code from within VS Code.\r\n* **[Data Science tutorials](https://code.visualstudio.com/updates/v1_58#_documentation)** - Learn about Jupyter Notebooks, PyTorch, and more.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.57.1",
+    "release_name": "May 2021 Recovery",
+    "created_at": "2021-06-17",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22May+2021+Recovery%22+is%3Aclosed+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_57) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.57.0",
+    "release_name": "May 2021",
+    "created_at": "2021-06-09",
+    "published_at": null,
+    "release_body": "Welcome to the May 2021 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Workspace Trust](https://code.visualstudio.com/updates/v1_57#_workspace-trust)** - Extra security against code execution when browsing unfamiliar source code.\r\n* **[New Getting Started experience](https://code.visualstudio.com/updates/v1_57#_new-getting-started-experience)** - Helps you quickly set up and learn about VS Code.\r\n* **[Remote Repositories](https://code.visualstudio.com/updates/v1_57#_remote-repositories)** - Browse and edit code without locally cloning repositories.\r\n* **[Terminal tabs](https://code.visualstudio.com/updates/v1_57#_terminal-tabs)** - Tabs let you easily create, manage, and group multiple open terminals.\r\n* **[Edge browser debugging](https://code.visualstudio.com/updates/v1_57#_javascript-debugging)** - Integrates the Microsoft Edge Developer Tools directly into VS Code.\r\n* **[JSDoc @link support](https://code.visualstudio.com/updates/v1_57#_jsdoc-link-support)** - Add @link tags in your comments for fast symbol navigation.\r\n* **[Go to Definition for non-code files](https://code.visualstudio.com/updates/v1_57#_go-to-definition-for-non-jsts-files)** - Quickly jump to images and stylesheets.\r\n* **[Notebook API finalized](https://code.visualstudio.com/updates/v1_57#_notebook-api)** - Notebook API for native notebook support in VS Code.\r\n* **[VS Code at Build 2021 blog post](https://code.visualstudio.com/updates/v1_57#_documentation)** - Catch up with on-demand sessions featuring VS Code.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.56.2",
+    "release_name": "April 2021 Recovery 2",
+    "created_at": "2021-05-13",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22April+2021+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_56) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.56.1",
+    "release_name": "April 2021 Recovery",
+    "created_at": "2021-05-06",
+    "published_at": null,
+    "release_body": "The update addresses these security [issues](https://github.com/microsoft/vscode/milestone/155?closed=1).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_56) on [code.visualstudio.com](https://code.visualstudio.com/)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.56.0",
+    "release_name": "April 2021",
+    "created_at": "2021-05-05",
+    "published_at": null,
+    "release_body": "Welcome to the April 2021 release of Visual Studio Code. The VS Code team has been busy this month working on several longer lead time updates so check out the [Preview features](#preview-features) section to learn what's upcoming. Here are some of the highlights included in this release:\r\n\r\n* **[Improved hover feedback](https://code.visualstudio.com/updates/v1_56#_improved-action-hover-feedback)** - Helps you quickly find clickable editor actions.\r\n* **[Terminal profile improvements](https://code.visualstudio.com/updates/v1_56#_terminal)** - Create a custom default terminal profile.\r\n* **[Debugger inline values](https://code.visualstudio.com/updates/v1_56#_inline-values-by-default-for-some-languages)** - Display variable values inline during debugging sessions.\r\n* **[Notebook KaTeX support](https://code.visualstudio.com/updates/v1_56#_math-support-in-markdown-cells)** - Math support in notebook Markdown cells.\r\n* **[Remote - Containers Volume view](https://code.visualstudio.com/updates/v1_56#_remote-development)** - Manage mounted volumes within Docker containers.\r\n* **[winget installation](https://code.visualstudio.com/updates/v1_56#_windows-installers-consolidated-in-windows-package-manager)** - VS Code is available via the Windows Package Manager.\r\n* **[New introductory videos](https://code.visualstudio.com/updates/v1_56#_documentation)** - Videos for getting started with VS Code as well as working with C++.\r\n* **[Terminal tabs preview](https://code.visualstudio.com/updates/v1_56#_terminal-tabs)** - Get a first look at managing open terminals with the new tabs view.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates/v1_56) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/livestream) on Tuesday, May 11 at 8am Pacific (4pm London) to see a demo of what's new in this release, and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.55.2",
+    "release_name": "March 2021 Recovery",
+    "created_at": "2021-04-13",
+    "published_at": null,
+    "release_body": "The update addresses these security [issues](https://github.com/microsoft/vscode/milestone/152?closed=1).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_55) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.55.1",
+    "release_name": "March 2021 Recovery",
+    "created_at": "2021-04-08",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22March+2021+Recovery%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_55) on [code.visualstudio.com](https://code.visualstudio.com).\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.55.0",
+    "release_name": "March 2021",
+    "created_at": "2021-03-31",
+    "published_at": null,
+    "release_body": "Welcome to the March 2021 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Accessibility improvements](https://code.visualstudio.com/updates/v1_55#_accessibility)** - Multi-cursor support and increased line limit.\r\n* **[Updated icons for macOS Big Sur](https://code.visualstudio.com/updates/v1_55#_updated-brand-icons-for-macos-big-sur)** - Brand icons that match the visual style of Big Sur.\r\n* **[Improvements to breakpoints](https://code.visualstudio.com/updates/v1_55#_improvements-to-breakpoints)** - Inline breakpoints menu, and more.\r\n* **[Editor status decorations](https://code.visualstudio.com/updates/v1_55#_tab-decorations-on-by-default)** - Editor tab status decorations are on by default.\r\n* **[Customize keyboard shortcuts editor](https://code.visualstudio.com/updates/v1_55#_resizing-columns-in-keyboard-shortcuts-editor)** - Resize columns in the keyboard shortcuts editor.\r\n* **[Improved remote ports management](https://code.visualstudio.com/updates/v1_55#_remote-development)** - Port forwarding autodetection, regex naming, and more.\r\n* **[Terminal profiles](https://code.visualstudio.com/updates/v1_55#_terminal-profiles)** - Define profiles in terminal to conveniently launch non-default shells.\r\n* **[Notebook improvements](https://code.visualstudio.com/updates/v1_55#_notebooks)** - Multiple cell selection, and more customizable diff editor.\r\n* **[VS Code on Raspberry Pi](https://code.visualstudio.com/updates/v1_55#_raspberry-pi)** - New topic explaining how to install VS Code on Raspberry Pi devices.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates/v1_55) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/livestream) on Thursday, April 8 at 8am Pacific (4pm London) to see a demo of what's new in this release, and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.54.3",
+    "release_name": "February 2021 Recovery 3",
+    "created_at": "2021-03-15",
+    "published_at": null,
+    "release_body": "The update addresses this [issue](https://github.com/microsoft/vscode/milestone/149).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_54) on code.visualstudio.com."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.54.2",
+    "release_name": "February 2021 Recovery 2",
+    "created_at": "2021-03-11",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/milestone/146).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_54) on code.visualstudio.com."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.54.1",
+    "release_name": "February 2021 Recovery",
+    "created_at": "2021-03-04",
+    "published_at": null,
+    "release_body": "The update addresses an [issue](https://github.com/microsoft/vscode/milestone/147) with an extension dependency.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_54) on code.visualstudio.com."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.54.0",
+    "release_name": "February 2021",
+    "created_at": "2021-03-02",
+    "published_at": null,
+    "release_body": "<!-- DOWNLOAD_LINKS_PLACEHOLDER -->\r\n\r\nWelcome to the February 2021 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Apple Silicon builds](#apple-silicon)** - VS Code is now available in stable for Apple Silicon.\r\n* **[Accessibility improvements](#accessibility)** - Better word navigation on Windows and roles for views and buttons.\r\n* **[Persistent terminal processes](#retain-terminal-processes-on-window-reload)** - Local terminal processes are restored on window reload.\r\n* **[Product Icon Themes](#product-icon-themes)** - Personalize your VS Code icon imagery with Product Icon Themes.\r\n* **[Timeline view improvements](#timeline-view)** - Compare changes across Git history timeline entries.\r\n* **[Auto reload Notebooks](#automatically-reload-notebooks)** - Notebooks automatically reload when their file changes on disk.\r\n* **[Remote ports table view](#table-widget)** - Remote ports now shown in a table widget.\r\n* **[Brackets extensions](#brackets)** - Use Brackets keyboard shortcuts in VS Code.\r\n* **[Troubleshooting extensions blog post](#troubleshooting-extensions-blog-post)** - Learn to troubleshoot extensions using extension bisect.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/livestream) on Thursday, March 11 at 8am Pacific (4pm London) to see a demo of what's new in this release, and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available.\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.53.2",
+    "release_name": "January 2021 Recovery 2",
+    "created_at": "2021-02-11",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22January+2021+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_53) on code.visualstudio.com."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.53.1",
+    "release_name": "January 2021 Recovery",
+    "created_at": "2021-02-08",
+    "published_at": null,
+    "release_body": "The update addresses these security [issues](https://github.com/microsoft/vscode/milestone/143).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_53) on code.visualstudio.com."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.53.0",
+    "release_name": "January 2021",
+    "created_at": "2021-02-03",
+    "published_at": null,
+    "release_body": "Welcome to the January 2021 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Wrap tabs](https://code.visualstudio.com/updates/v1_53#wrap-tabs)** - Wrap editor tabs in the workbench instead of having a scrollbar.\r\n* **[Configure tab decorations](https://code.visualstudio.com/updates/v1_53#tab-decorations)** - Add editor tab status decorations.\r\n* **[Customize search mode](https://code.visualstudio.com/updates/v1_53#default-search-mode)** - Use the Search view or open a new Search editor.\r\n* **[JavaScript debugging](https://code.visualstudio.com/updates/v1_53#javascript-debugger)** - Support for conditional exception breakpoints and Node.js worker_threads.\r\n* **[Notebook UX updates](https://code.visualstudio.com/updates/v1_53#notebooks)** - Outline view for Notebook cells, and breadcrumbs for improved navigation.\r\n* **[Markdown preview image auto update](https://code.visualstudio.com/updates/v1_53#markdown-preview-auto-updates-when-images-are-changed-on-disk)** - Preview automatically updates when images change.\r\n* **[Emmet improvements](https://code.visualstudio.com/updates/v1_53#emmet-performance-and-feature-improvements)** - Faster performance and supporting the latest features.\r\n* **[Extension guidelines](https://code.visualstudio.com/updates/v1_53#extension-guidelines)** - Documented best practices for extension authors.\r\n* **[Remote Development video series](https://code.visualstudio.com/updates/v1_53#documentation)** - Learn to create and configure container-based environments.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/livestream) on Tuesday, February 9 at 8am Pacific (4pm London) to see a demo of what's new in this release, and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.52.1",
+    "release_name": "November 2020 Recovery",
+    "created_at": "2020-12-16",
+    "published_at": null,
+    "release_body": "The update addresses [these](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22November+2020+Recovery%22+is%3Aclosed+) issues.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_52) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.52.0",
+    "release_name": "November 2020",
+    "created_at": "2020-12-10",
+    "published_at": null,
+    "release_body": "Welcome to the November 2020 release of Visual Studio Code. As announced in the [November iteration plan](https://github.com/microsoft/vscode/issues/110690), we continued to focus for two weeks on housekeeping GitHub issues and pull requests as documented in our [issue grooming guide](https://github.com/microsoft/vscode/wiki/Issue-Grooming). Across all of our VS Code repositories, we closed (either triaged or fixed) **5242** issues, which is even more than during our last housekeeping iteration in [October 2019](https://code.visualstudio.com/updates/v1_40), where we closed **4622** issues. While we closed issues, you created **2937** new issues. The main [vscode repository](https://github.com/microsoft/vscode/issues) now has 2146 open feature requests and 884 open bugs. In addition, we closed **144** pull requests.\r\n\r\nSame as every year, we used the [live tracker](https://vscode-issue-tracker.netlify.com/) from [Benjamin Lannon](https://github.com/lannonbr) to track our progress:\r\n\r\n![Burn down chart of VS Code issues](https://code.visualstudio.com/assets/updates/1_52/november-issue-grooming.png)\r\n\r\nAfter focusing on housekeeping, we have also addressed several feature requests and community [pull requests](https://code.visualstudio.com/updates/v1_52#_thank-you). This resulted in many new features and settings, some of the key highlights include:\r\n\r\n* **[Word wrap in diff editor](https://code.visualstudio.com/updates/v1_52#_word-wrap-in-the-diff-editor)** - Both inline and side-by-side views now support word wrapping.\r\n* **[New extension bisect feature](https://code.visualstudio.com/updates/v1_52#_troubleshooting-extension-bisect)** - Troubleshoot which extensions are causing issues in VS Code.\r\n* **[Keyboard shortcuts editor improvements](https://code.visualstudio.com/updates/v1_52#_keyboard-shortcuts-editor)** - Create a keybinding from the Command Palette.\r\n* **[Undo file operations in Explorer](https://code.visualstudio.com/updates/v1_52#_undo-file-operations-in-explorer)** - Undo or redo file operations in the Explorer.\r\n* **[New Git commands and settings](https://code.visualstudio.com/updates/v1_52#_git-new-commands)** - Optimize your Version Control experience with new capabilities.\r\n* **[Preview editor improvements](https://code.visualstudio.com/updates/v1_52#_preview-editor-improvements)** - Turn off preview editors altogether, and try new interaction models.\r\n* **[Sticky tab stops for spaces](https://code.visualstudio.com/updates/v1_52#_sticky-tab-stops-when-indenting-with-spaces)** - Improved experience when indenting with spaces.\r\n* **[Improved word-based suggestions](https://code.visualstudio.com/updates/v1_52#_wordbased-suggestions-from-other-documents)** - Display word-based suggestions from other open files.\r\n* **[Terminal configuration support](https://code.visualstudio.com/updates/v1_52#_terminal-configuration-support)** - Modify terminal settings from the terminal dropdown menu.\r\n* **[New Remote Development resources](https://code.visualstudio.com/updates/v1_52#_documentation)** - Check out the new video and Learn module."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.51.1",
+    "release_name": "October 2020 Recovery",
+    "created_at": "2020-11-10",
+    "published_at": null,
+    "release_body": "The update addresses [these](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22October+2020+Recovery%22+is%3Aclosed+) issues.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_50) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.51.0",
+    "release_name": "October 2020",
+    "created_at": "2020-11-04",
+    "published_at": null,
+    "release_body": "Welcome to the October 2020 release of Visual Studio Code. As announced in the [October iteration plan](https://github.com/microsoft/vscode/issues/108473), we focused on housekeeping GitHub issues and pull requests as documented in our issue grooming guide.\r\n\r\nWe also worked with our partners at GitHub on GitHub Codespaces, which ended up being more involved than originally anticipated. To that end, we'll continue working on housekeeping for part of the November iteration.\r\n\r\nDuring this housekeeping milestone, we also addressed several feature requests and community [pull requests](https://code.visualstudio.com/updates/v1_51#_thank-you). Read on to learn about new features and settings.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.50.1",
+    "release_name": "September 2020 Recovery",
+    "created_at": "2020-10-13",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2020+Recovery%22+is%3Aclosed), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_50) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.50.0",
+    "release_name": "September 2020",
+    "created_at": "2020-10-07",
+    "published_at": null,
+    "release_body": "Welcome to the September 2020 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Accessible settings editor](#settings-editor)** - Interact with the settings list like any other list in VS Code.\r\n* **[Pinned tabs improvements](#pinned-tabs-improvements)** - Resize pinned tabs, unpin with one click, and more.\r\n* **[Linux ARM builds](#linux-arm-builds)** - VS Code is now available for both Linux ARMv7 and ARM64.\r\n* **[Improved debugging experience](#debugging)** - Improved hover and filtering in debug console.\r\n* **[New JS debugger features](#javascript-debugging)** - Toggle auto attach flows and see performance in real-time.\r\n* **[Panel layout improvements](#panel-layout-improvements)** - New panel maximization settings and bottom panel size.\r\n* **[Webview Views support](#webview-views)** - Build extensions with webview views in the sidebar and panel.\r\n* **[Updated \"Create a Dev Container\" tutorial](#updated-create-a-dev-container-tutorial)** - Get started with Development Containers.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/events) on Tuesday, October 13 at 8am Pacific (4pm London), to see a demo of what's new in this release and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.49.3",
+    "release_name": "August 2020 Recovery 3",
+    "created_at": "2020-10-02",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22August+2020+Recovery+3%22+is%3Aclosed+), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_49) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.49.2",
+    "release_name": "August 2020 Recovery 2",
+    "created_at": "2020-09-22",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22August+2020+Recovery+2%22+is%3Aclosed+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_49) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.49.1",
+    "release_name": "August 2020 Recovery",
+    "created_at": "2020-09-16",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22August+2020+Recovery%22+is%3Aclosed+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_39) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.49.0",
+    "release_name": "August 2020",
+    "created_at": "2020-09-09",
+    "published_at": null,
+    "release_body": "Welcome to the August 2020 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Format modified text](#only-format-modified-text)** - Limit formatting to just the code you've changed.\r\n* **[Change casing on Search and Replace](#case-changing-in-regex-replace)** - Change text casing during global Search and Replace.\r\n* **[Source Control repositories view](#source-control-repositories-view)** - Display pending changes per repository.\r\n* **[Filter Debug Console output](#debug-console-filter)** - Quickly filter and find debugging output.\r\n* **[Improved JS debugger Auto Attach](#javascript-debugger-improvements)** - \"Smart\" Auto Attach to Node.js scripts or test runners.\r\n* **[TypeScript optional chaining refactoring](#convert-to-optional-chain-refactoring)** - Convert multiple checks to a concise optional chain.\r\n* **[JSDoc @deprecated tag support](#deprecated-tag-support-for-javascript-and-typescript)** - IntelliSense clearly shows APIs marked as deprecated.\r\n* **[Notebook UX updates](#notebooks)** - Cell Status bar contributions, enhanced notebook diff editor.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/events) on Wednesday, September 16 at 9am Pacific (5pm London), to see a demo of what's new in this release and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available. And for the latest Visual Studio Code news, updates, and content, follow us on Twitter [@code](https://twitter.com/code)!"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.48.2",
+    "release_name": "July 2020 Recovery 2",
+    "created_at": "2020-08-25",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22July+2020+Recovery+2%22+is%3Aclosed+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_48) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.48.1",
+    "release_name": "July 2020 Recovery",
+    "created_at": "2020-08-19",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22July+2020+Recovery%22+is%3Aclosed+).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_48) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.48.0",
+    "release_name": "July 2020",
+    "created_at": "2020-08-11",
+    "published_at": null,
+    "release_body": "Welcome to the July 2020 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Settings Sync to Stable](https://code.visualstudio.com/updates/v1_48#_settings-sync)** - Settings Sync is now available for preview in stable.\r\n* **[Updated Extensions view menu](https://code.visualstudio.com/updates/v1_48#_extensions-overflow-menu-cleanup)** - Simplified menu with additional filtering options.\r\n* **[New Git View submenus](https://code.visualstudio.com/updates/v1_48#_git-overflow-menu-cleanup)** - Refactored overflow menu for Git in the Source Control view.\r\n* **[Updated in-browser debugging](https://code.visualstudio.com/updates/v1_48#_debug-open-link-command)** - Debug in the browser without writing a launch configuration.\r\n* **[Publish a public repository](https://code.visualstudio.com/updates/v1_48#_github-publish-to-a-public-repository)** - Choose whether to publish to a public or private GitHub repository.\r\n* **[Notebook UX updates](https://code.visualstudio.com/updates/v1_48#_notebooks)** - New Cell menu, enhanced drag and drop.\r\n* **[New Remote Container topics](https://code.visualstudio.com/updates/v1_48#_new-remote-container-topics)** - Learn how to attach to a container and create a new dev container.\r\n* **[Java lightweight mode](https://code.visualstudio.com/updates/v1_48#_java-lightweight-mode)** - Start working with your Java source files more quickly.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Join us live** at the [VS Code team's livestream](https://code.visualstudio.com/events) on Monday, August 17 at 9am Pacific (5pm London), to see a demo of what's new in this release and ask us questions live.\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available. And for the latest Visual Studio Code news, updates, and content, follow us on Twitter [@code](https://twitter.com/code)!"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.47.3",
+    "release_name": "June 2020 Recovery 3",
+    "created_at": "2020-07-21",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/milestone/129?closed=1).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_47) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.47.2",
+    "release_name": "June 2020 Recovery 2",
+    "created_at": "2020-07-15",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/microsoft/vscode/milestone/127?closed=1).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_47) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.47.1",
+    "release_name": "June 2020 Recovery",
+    "created_at": "2020-07-13",
+    "published_at": null,
+    "release_body": "The update addresses this security [issue](https://github.com/microsoft/vscode/issues/102513).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_47) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.47.0",
+    "release_name": "June 2020",
+    "created_at": "2020-07-08",
+    "published_at": null,
+    "release_body": "Welcome to the June 2020 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Accessibility improvements](https://code.visualstudio.com/updates/v1_47#_accessibility)** - New screen reader capabilities.\r\n* **[Windows ARM builds](https://code.visualstudio.com/updates/v1_47#_stable-windows-arm-builds)** - Windows on ARM is now available in stable.\r\n* **[New JavaScript debugger](https://code.visualstudio.com/updates/v1_47#_new-javascript-debugger)** - Debug in the terminal, profiling support.\r\n* **[Source Control unified view](https://code.visualstudio.com/updates/v1_47#_single-view)** - All repositories displayed in a single view.\r\n* **[View and sort pending changes](https://code.visualstudio.com/updates/v1_47#_view-and-sort)** - View files as a tree or list, sort by name, path, or status.\r\n* **[Edit complex settings](https://code.visualstudio.com/updates/v1_47#_edit-object-settings-from-the-settings-editor)** - Edit object settings from the Settings editor.\r\n* **[New HexEditor extension](https://code.visualstudio.com/updates/v1_47#_hex-editor)** - Edit files in hexadecimal format from within VS Code.\r\n* **[Notebook UI updates](https://code.visualstudio.com/updates/v1_47#_notebooks)** - Improved UX and undo/redo support.\r\n* **[Remote Development tutorials](https://code.visualstudio.com/updates/v1_47#_remote-development)** - Learn to develop over SSH, inside Containers, and in WSL.\r\n* **[Java Pack Installer for macOS](https://code.visualstudio.com/updates/v1_47#_java-pack-installer-for-macos)** - Get set up to develop in Java with VS Code on macOS.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available. And for the latest Visual Studio Code news, updates, and content, follow us on Twitter [@code](https://twitter.com/code)!"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.46.1",
+    "release_name": "May 2020 Recovery",
+    "created_at": "2020-06-17",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22May+2020+Recovery%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_46) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.46.0",
+    "release_name": "May 2020",
+    "created_at": "2020-06-09",
+    "published_at": null,
+    "release_body": "Welcome to the May 2020 release of Visual Studio Code.\r\n\r\n* **[Accessibility improvements](https://code.visualstudio.com/updates/v1_46#_accessibility)** - Status bar navigation, easier keyboard text selection.\r\n* **[Flexible view and panel layout](https://code.visualstudio.com/updates/v1_46#_flexible-layout)** - Move and group views in the Side Bar and Panel.\r\n* **[Pinned editor tabs](https://code.visualstudio.com/updates/v1_46#_pin-tabs)** - Pin editors in the title bar to keep frequently used files handy.\r\n* **[Add GitHub remotes](https://code.visualstudio.com/updates/v1_46#_add-remote-from-github)** - Add GitHub remotes to your local repository.\r\n* **[Automatic debugger configuration](https://code.visualstudio.com/updates/v1_46#_automatic-debug-configurations-improvements)** - Save and modify generated debug configurations.\r\n* **[JavaScript CommonJS auto imports](https://code.visualstudio.com/updates/v1_46#_commonjs-auto-imports)** - Auto imports will now use `require` for CommonJS modules.\r\n* **[JS/TS refactorings preserve newlines](https://code.visualstudio.com/updates/v1_46#_refactorings-preserve-newlines)** - Formatting is preserved during refactoring operations.\r\n* **[Settings Sync preview](https://code.visualstudio.com/updates/v1_46#_settings-sync)** - New Synced Machines and Data views to manage your preferences.\r\n* **[GitHub Issue Notebooks](https://code.visualstudio.com/updates/v1_46#_notebooks)** - Run GitHub issue queries and display results in a custom Notebook.\r\n* **[Windows ARM64 support](https://code.visualstudio.com/updates/v1_46#_windows-arm64-insiders)** - New VS Code Insiders ARM64 builds are available.\r\n* **[VS Code at Build 2020](https://code.visualstudio.com/updates/v1_46#_documentation-and-extensions)** - Talks on Tips&Tricks, Remote Development, and The History of VS Code.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available. And for the latest Visual Studio Code news, updates, and content, follow us on Twitter [@code](https://twitter.com/code)!\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.45.1",
+    "release_name": "April 2020 Recovery",
+    "created_at": "2020-05-14",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22April+2020+Recovery%22+is%3Aclosed), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_45) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.45.0",
+    "release_name": "April 2020",
+    "created_at": "2020-05-05",
+    "published_at": null,
+    "release_body": "Welcome to the April 2020 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Accessibility improvements](#accessibility)** - New Focus commands to move around the workbench, status bar accessibility.\r\n* **[Switch editor tabs via mouse wheel](#switch-tabs-using-mouse-wheel)** - Quickly switch open files in the editor using your mouse wheel.\r\n* **[Faster syntax highlighting](#faster-syntax-highlighting)** - Programming language colorization is up to 3 times faster.\r\n* **[Custom semantic colors](#semantic-token-styling)** - Change semantic token colors through your user settings.\r\n* **[GitHub authentication support](#git-authentication-for-github-repositories)** - Automatic GitHub authentication for GitHub repositories.\r\n* **[GitHub Issues integration](#github-pull-requests-and-issues)** - Inline hovers and suggestions for GitHub issues and users.\r\n* **[Remote Development](#remote-development)** - Container configuration recommendations, WSL 2 support.\r\n* **[JavaScript debugger preview](#new-javascript-debugger)** - CPU profiling, improved Auto Attach to Node.js processes.\r\n* **[New Docker Compose topic](#docker-compose)** - Learn how to use Docker Compose to work with multiple containers.\r\n\r\n>If you'd like to read these release notes online, go to [Updates](https://code.visualstudio.com/updates) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to try new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available. And for the latest Visual Studio Code news, updates, and content, follow us on Twitter [@code](https://twitter.com/code)!\r\n"
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.39.2",
+    "release_name": "September 2019 Recovery 2",
+    "created_at": "2019-10-15",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2019+Recovery+2%22+is%3Aclosed).\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_39) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.39.1",
+    "release_name": "September 2019 Recovery",
+    "created_at": "2019-10-10",
+    "published_at": null,
+    "release_body": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2019+Recovery%22+is%3Aclosed), including a fix for a security vulnerability.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_39) on [code.visualstudio.com](https://code.visualstudio.com)."
+  },
+  {
+    "repo_id": 1,
+    "release_tag_name": "1.39.0",
+    "release_name": "September 2019",
+    "created_at": "2019-10-08",
+    "published_at": null,
+    "release_body": "Welcome to the September 2019 release of Visual Studio Code. There are a number of updates in this version that we hope you will like, some of the key highlights include:\r\n\r\n* **[Text selections displayed in minimap](https://code.visualstudio.com/updates/v1_39#_minimap-editor-selection-decorations)** - See selection regions in the minimap overview.\r\n* **[Toggle region folding keyboard shortcut](https://code.visualstudio.com/updates/v1_39#_toggle-folding)** - Quickly expand and collapse regions with Toggle Fold.\r\n* **[Source Control tree view](https://code.visualstudio.com/updates/v1_39#_updated-source-control-view)** - Display pending changes in either a list or new tree view.\r\n* **[Open terminal in custom working directory](https://code.visualstudio.com/updates/v1_39#_open-new-terminals-with-custom-working-directories)** - Add keyboard shortcuts for specific folders.\r\n* **[HTML ARIA attribute reference links](https://code.visualstudio.com/updates/v1_39#_html-aria-attributes-reference)** - Links to ARIA documentation directly from IntelliSense.\r\n* **[CSS property completions include semicolons](https://code.visualstudio.com/updates/v1_39#_css-property-completion-with-semicolon)** - Semicolons added as you enter CSS properties.\r\n* **[CSS color variables preview](https://code.visualstudio.com/updates/v1_39#_css-color-preview-for-variable-completion)** - Color variable completions display color swatch.\r\n* **[Improved column breakpoint UI](https://code.visualstudio.com/updates/v1_39#_improved-ui-for-column-breakpoints)** - View possible inline breakpoints directly in your source code.\r\n* **[Inline debug actions in CALL STACK view](https://code.visualstudio.com/updates/v1_39#_inline-debug-actions-in-call-stack-view)** - Stay in context with debug actions on hover.\r\n* **[Remote Explorer updates](https://code.visualstudio.com/updates/v1_39#_remote-development-preview)** - Explorer now displays WSL distros and repository containers.\r\n\r\nFor the complete release notes go to [Updates](https://code.visualstudio.com/updates/v1_39) on [code.visualstudio.com](https://code.visualstudio.com).\r\n\r\n**Insiders:** Want to see new features as soon as possible? You can download the nightly [Insiders](https://code.visualstudio.com/insiders) build and try the latest updates as soon as they are available. And for the latest Visual Studio Code news, updates, and content, follow us on Twitter [@code](https://twitter.com/code)!"
+  }
+]

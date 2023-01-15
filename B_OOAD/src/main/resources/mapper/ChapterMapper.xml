@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.ChapterMapper">
+
+    <insert id="insertChapter">
+        insert into chapter (chapter_id, chapter_index, chapter_title, course_id)
+        values (null, #{chapter_index}, #{chapter_title}, #{course_id});
+    </insert>
+
+    <update id="updateChapter">
+        update chapter set chapter_title = #{chapter_title}
+        where chapter_id = #{chapter_id};
+    </update>
+
+    <delete id="deleteChapterByCourseIdAndChapterIndex">
+        delete from chapter where course_id = #{course_id} and chapter_index = #{chapter_index};
+    </delete>
+
+
+    <select id="selectChaptersByCourseId" resultType="edu.sustech.ooad.entity.Chapter">
+        select * from chapter where course_id = #{course_id} order by chapter_index;
+    </select>
+
+    <select id="selectChapterByCourseIdAndChapterName" resultType="edu.sustech.ooad.entity.Chapter">
+        select * from chapter where chapter_title = #{chapter_name} and course_id = #{course_id};
+    </select>
+
+    <select id="selectChapterByCourseIdAndChapterIndex" resultType="edu.sustech.ooad.entity.Chapter">
+        select * from chapter where course_id = #{course_id} and chapter_index = #{chapter_index};
+    </select>
+
+    <select id="selectChapterByChapterId" resultType="edu.sustech.ooad.entity.Chapter">
+        select * from chapter where chapter_id = #{chapter_id};
+    </select>
+</mapper>

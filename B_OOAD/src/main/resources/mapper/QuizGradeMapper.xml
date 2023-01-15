@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.QuizGradeMapper">
+
+
+    <insert id="insertQuizGrade">
+        insert into quiz_grade (grade_id, user_id, course_id, quiz_index, grade_score, grade_time)
+        values (null, #{user_id}, #{course_id}, #{quiz_index}, #{grade_score}, #{grade_time});
+    </insert>
+
+    <select id="selectQuizGradeByUserId" resultType="edu.sustech.ooad.entity.QuizGrade">
+        select * from quiz_grade where user_id = #{user_id};
+    </select>
+
+    <select id="selectQuizGradeByCourseId" resultType="edu.sustech.ooad.entity.QuizGrade">
+        select * from quiz_grade where course_id = #{course_id};
+    </select>
+
+    <select id="selectScoreByCourseIdAndQuizIndex" resultType="java.lang.Integer">
+        select grade_score from quiz_grade where course_id = #{course_id} and quiz_index = #{quiz_index};
+    </select>
+
+
+</mapper>

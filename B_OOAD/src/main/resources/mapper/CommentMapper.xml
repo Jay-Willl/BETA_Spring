@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.CommentMapper">
+    <insert id="insertComment">
+        insert into comment (comment_id, user_id, course_id, comment_content, comment_time)
+        values (null, #{user_id}, #{course_id}, #{comment_content}, #{comment_time})
+    </insert>
+
+
+    <select id="selectCommentsByCourseId" resultType="edu.sustech.ooad.entity.Comment">
+        select * from comment where course_id = #{course_id};
+    </select>
+</mapper>

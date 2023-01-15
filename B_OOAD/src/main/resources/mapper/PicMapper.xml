@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.PicMapper">
+
+    <insert id="insertPic">
+        insert into pic (pic_id, pic_url)
+        values (null, #{pic_url});
+    </insert>
+
+    <select id="selectPicById" resultType="edu.sustech.ooad.entity.Pic">
+        select * from pic where pic_id = #{pic_id};
+    </select>
+
+    <select id="selectPicByUrl" resultType="edu.sustech.ooad.entity.Pic">
+        select * from pic where pic_url = #{pic_url};
+    </select>
+
+
+</mapper>

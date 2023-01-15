@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="github_vis.Mapper.RelationMapper">
+    <resultMap id="recordMapAuto" type="github_vis.Entity.Relation" autoMapping="true"/>
+
+    <insert id="insertRelation">
+        insert into relation (repo_id, issue_number, label_name, label_color, label_description)
+        values (#{repo_id}, #{issue_number}, #{label_name}, #{label_color}, #{label_description})
+    </insert>
+
+
+    <select id="selectTagRecordsByRepo_id" resultType="github_vis.Entity.TagRecord">
+        select count(label_name) as count, label_name as name, label_description as description, label_color as color
+        from relation
+        where repo_id = #{repo_id}
+        group by label_name, label_description, label_color
+        order by count desc;
+    </select>
+
+
+</mapper>

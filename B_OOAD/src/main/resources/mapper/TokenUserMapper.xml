@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.TokenUserMapper">
+
+    <insert id="insertTokenUser">
+        insert into token_user (map_id, user_id, token_id)
+        values (null, #{user_id}, #{token_id});
+    </insert>
+
+    <update id="updateTokenUser">
+        update token_user set token_id = #{token_id} where user_id = #{user_id};
+    </update>
+
+
+    <select id="selectMapByUserId" resultType="edu.sustech.ooad.entity.TokenUser">
+        select * from token_user where user_id = #{user_id};
+    </select>
+</mapper>

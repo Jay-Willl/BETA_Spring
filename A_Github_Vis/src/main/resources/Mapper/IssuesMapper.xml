@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="github_vis.Mapper.IssuesMapper">
+    <resultMap id="recordMapAuto" type="github_vis.Entity.Issue" autoMapping="true"/>
+
+    <insert id="insertIssue">
+        insert into issues(issue_number, repo_id, created_at, closed_at, issue_state, issue_duration)
+        values (#{issue_number}, #{repo_id}, #{created_at}, #{closed_at}, #{issue_state}, #{issue_duration})
+    </insert>
+
+    <select id="selectIssue_idByIssue_number" resultType="java.lang.Integer">
+        select id from issues where issue_number = #{issue_number}
+    </select>
+
+    <select id="selectIssue_idByIssue_numberRepo_id" resultType="java.lang.Integer">
+        select id from issues where issue_number = #{number} and repo_id = #{repo_id};
+    </select>
+
+    <select id="selectIssueByRepo_id" resultType="github_vis.Entity.Issue">
+        select * from issues where repo_id = #{repo_id};
+    </select>
+
+
+</mapper>

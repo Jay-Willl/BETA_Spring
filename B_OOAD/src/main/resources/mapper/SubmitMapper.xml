@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.SubmitMapper">
+    <insert id="insertSubmit">
+        insert into submit(submit_id, pic_url, user_id, user_name, course_id, submit_type, submit_index, submit_time, submit_checked)
+        values (null, #{pic_url}, #{user_id}, #{user_name}, #{course_id}, #{submit_type}, #{submit_index}, #{submit_time}, #{submit_checked});
+    </insert>
+
+    <update id="updateSubmitChecked">
+        update submit set submit_checked = 1 where course_id = #{course_id} and submit_index = #{submit_index} and user_id = #{student_id};
+    </update>
+
+    <select id="selectSubmitsByCourseIdAndSubmitIndex" resultType="edu.sustech.ooad.entity.Submit">
+        select * from submit where course_id = #{course_id} and submit_index = #{submit_index};
+    </select>
+
+    <select id="selectSubmitByStudentIdCourseIdAndSubmitIndex" resultType="edu.sustech.ooad.entity.Submit">
+        select * from submit where course_id = #{course_id} and submit_index = #{submit_index} and user_id = #{student_id};
+    </select>
+
+    <select id="selectSubmitsByUserId" resultType="edu.sustech.ooad.entity.Submit">
+        select * from submit where user_id = #{user_id};
+    </select>
+
+    <select id="selectSubmitsByUserIdChecked" resultType="edu.sustech.ooad.entity.Submit">
+        select * from submit where user_id = #{user_id} and submit_checked = 1;
+    </select>
+
+    <select id="selectSubmitsByUserIdUnchecked" resultType="edu.sustech.ooad.entity.Submit">
+        select * from submit where user_id = #{user_id} and submit_checked = 0;
+    </select>
+
+
+</mapper>

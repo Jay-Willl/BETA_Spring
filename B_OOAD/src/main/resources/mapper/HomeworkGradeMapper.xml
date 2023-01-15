@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.sustech.ooad.mapper.HomeworkGradeMapper">
+
+
+    <insert id="insertHomeworkGrade">
+        insert into homework_grade (grade_id, user_id, course_id, homework_index, grade_score, grade_content, grade_time)
+        values (null, #{user_id}, #{course_id}, #{homework_index}, #{grade_score}, #{grade_content}, #{grade_time});
+    </insert>
+
+
+    <select id="selectHomeworkGradeByUserId" resultType="edu.sustech.ooad.entity.HomeworkGrade">
+        select * from homework_grade where user_id = #{user_id};
+    </select>
+
+
+    <select id="selectHomeworkGradeByCourseId" resultType="edu.sustech.ooad.entity.HomeworkGrade">
+        select * from homework_grade where course_id = #{course_id};
+    </select>
+
+    <select id="selectScoreByCourseIdAndHomeworkIndex" resultType="java.lang.Integer">
+        select grade_score from homework_grade where course_id = #{course_id} and homework_index = #{homework_index};
+    </select>
+</mapper>
